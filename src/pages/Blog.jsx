@@ -2,24 +2,24 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Mission Log 001: Setting Course for Web Development",
-      date: "Stardate 2025.199",
-      excerpt: "Beginning my journey into the vast universe of web development. First contact with React and the fascinating world of component-based architecture...",
-      tags: ["Web Development", "React", "Learning"]
+      title: "Mission Log 001: Placeholder",
+      date: "Stardate 2025.PLCHLDR",
+      excerpt: "Placeholder",
+      tags: ["Placeholder"]
     },
     {
       id: 2,
-      title: "Mission Log 002: Navigating the CSS Nebula",
-      date: "Stardate 2025.203",
-      excerpt: "Encountered the mysterious CSS Grid and Flexbox phenomena. Initial observations suggest these technologies can bend space and time in web layouts...",
-      tags: ["CSS", "Design", "Frontend"]
+      title: "Mission Log 002: Placeholder",
+      date: "Stardate 2025.PLCHLDR",
+      excerpt: "Placeholder",
+      tags: ["Placeholder"]
     },
     {
       id: 3,
-      title: "Mission Log 003: First Contact with APIs",
-      date: "Stardate 2025.207",
-      excerpt: "Established communication protocols with external data sources. The API integration proved successful, opening new possibilities for data exchange...",
-      tags: ["API", "JavaScript", "Backend"]
+      title: "Mission Log 003: Placeholder",
+      date: "Stardate 2025.PLCHLDR",
+      excerpt: "Placeholder",
+      tags: ["Placeholder"]
     }
   ]
 
@@ -31,9 +31,8 @@ const Blog = () => {
         </h1>
 
         <p className="text-gray-300 mb-12 text-lg">
-          Personal logs documenting my exploration through the digital frontier. 
-          Each entry chronicles discoveries, challenges, and breakthroughs in my 
-          continuing mission to explore strange new technologies.
+          Personal logs documenting my exploration through the random things in this vast universe. 
+          There is no pattern or theme of what I plan to write blogs about - I'll just write them!
         </p>
 
         {/* Blog Posts */}
