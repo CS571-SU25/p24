@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg3318" version="1.1" inkscape:version="0.48.5 r10040" width="700.875" height="809.73749" sodipodi:docname="TNG_badge.png">
+  <metadata id="metadata3324">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs3322">
+    <filter inkscape:label="Fancy blur" inkscape:menu="Blurs" inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation" color-interpolation-filters="sRGB" id="filter3385">
+      <feGaussianBlur stdDeviation="5" result="result1" id="feGaussianBlur3387" />
+      <feComposite operator="arithmetic" k2="2" in="result1" in2="result1" id="feComposite3389" k1="0" k3="0" k4="0" />
+    </filter>
+    <filter inkscape:label="Fancy blur" inkscape:menu="Blurs" inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation" color-interpolation-filters="sRGB" id="filter3393">
+      <feGaussianBlur stdDeviation="5" result="result1" id="feGaussianBlur3395" />
+      <feComposite operator="arithmetic" k2="2" in="result1" in2="result1" id="feComposite3397" k1="0" k3="0" k4="0" />
+    </filter>
+    <filter inkscape:label="Fancy blur" inkscape:menu="Blurs" inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation" color-interpolation-filters="sRGB" id="filter3412">
+      <feGaussianBlur stdDeviation="5" result="result1" id="feGaussianBlur3414" />
+      <feComposite operator="arithmetic" k2="2" in="result1" in2="result1" id="feComposite3416" k1="0" k3="0" k4="0" />
+    </filter>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1366" inkscape:window-height="706" id="namedview3320" showgrid="false" inkscape:zoom="0.59" inkscape:cx="663.70567" inkscape:cy="351.46727" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="svg3318" inkscape:snap-nodes="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" />
+  <g id="g3428" transform="translate(2.875,5.165625)">
+    <g id="g3418">
+      <path inkscape:connector-curvature="0" id="path3410" d="m 637.59464,472.21407 c 0,116.16443 -129.85248,210.3343 -290.03364,210.3343 -160.18117,0 -290.033648,-94.16987 -290.033648,-210.3343 0,-116.16444 129.852478,-210.33432 290.033648,-210.33432 160.18116,0 290.03364,94.16988 290.03364,210.33432 z" style="fill:none;stroke:black;stroke-width:4;stroke-opacity:1;filter:url(#filter3412)" />
+      <path style="fill:#bba467;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 637.59464,472.21407 c 0,116.16443 -129.85248,210.3343 -290.03364,210.3343 -160.18117,0 -290.033648,-94.16987 -290.033648,-210.3343 0,-116.16444 129.852478,-210.33432 290.033648,-210.33432 160.18116,0 290.03364,94.16988 290.03364,210.33432 z" id="path3351" inkscape:connector-curvature="0" />
+      <path sodipodi:nodetypes="ssssssssss" inkscape:connector-curvature="0" id="path3383" d="m 347.64619,274.71875 c -150.31223,0 -272.166317,89.74955 -272.166317,198.34739 0,108.59782 121.854087,196.62136 272.166317,196.62136 150.3122,0 272.16631,-88.02354 272.16631,-196.62136 0,-108.59784 -121.85411,-198.34739 -272.16631,-198.34739 z m 0,14.8048 c 142.57173,0 258.13808,80.53711 258.13808,183.54259 0,103.00546 -115.56635,183.54259 -258.13808,183.54259 -142.57175,0 -258.169192,-80.53713 -258.169192,-183.54259 0,-103.00548 115.597442,-183.54259 258.169192,-183.54259 z" style="fill:none;stroke:black;stroke-opacity:1;filter:url(#filter3385)" />
+      <path style="fill:#a5915a;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 347.64619,274.71875 c -150.31223,0 -272.166317,89.74955 -272.166317,198.34739 0,108.59782 121.854087,196.62136 272.166317,196.62136 150.3122,0 272.16631,-88.02354 272.16631,-196.62136 0,-108.59784 -121.85411,-198.34739 -272.16631,-198.34739 z m 0,14.8048 c 142.57173,0 258.13808,80.53711 258.13808,183.54259 0,103.00546 -115.56635,183.54259 -258.13808,183.54259 -142.57175,0 -258.169192,-80.53713 -258.169192,-183.54259 0,-103.00548 115.597442,-183.54259 258.169192,-183.54259 z" id="path3354" inkscape:connector-curvature="0" sodipodi:nodetypes="ssssssssss" />
+    </g>
+    <g id="g3424">
+      <path sodipodi:nodetypes="csccc" inkscape:connector-curvature="0" id="path3391" d="m 148.62288,727.54237 c 0,0 191.703,-275.10333 234.59304,-275.10333 59.05941,0 159.87777,269.21028 173.18124,279.8465 C 529.71216,571.06839 473.07818,294.86863 352.22458,66.843218 251.36637,287.07627 189.27178,506.71008 148.62288,727.54237 z" style="fill:none;stroke:black;stroke-width:4;stroke-opacity:1;filter:url(#filter3393)" />
+      <path style="fill:#b4bebe;fill-opacity:1;stroke:none" d="m 148.62288,727.54237 c 0,0 191.703,-275.10333 234.59304,-275.10333 59.05941,0 159.87777,269.21028 173.18124,279.8465 C 529.71216,571.06839 473.07818,294.86863 352.22458,66.843218 251.36637,287.07627 189.27178,506.71008 148.62288,727.54237 z" id="path3359" inkscape:connector-curvature="0" sodipodi:nodetypes="csccc" />
+    </g>
+  </g>
+</svg>
