@@ -25,60 +25,54 @@ const Navigation = () => {
                 ${isExpanded ? 'w-80' : 'w-24'}
                 p-6
             `}>
-                {/* header section - floating glass panel */}
-                <div className="mb-8">
+                {/* Header section with fixed communicator position */}
+                <div className="mb-8 relative">
+                    {/* Fixed Communicator Badge - OUTSIDE the container, always visible */}
+                    <div
+                        className="cursor-pointer select-none absolute top-6 left-6 z-30
+                                   hover:scale-110 hover:rotate-3 hover:drop-shadow-[0_0_20px_rgba(251,146,60,0.6)]
+                                   w-12 h-12 flex items-center justify-center
+                                   transition-transform duration-300 ease-out"
+                        onClick={() => setIsExpanded(!isExpanded)}
+                    >
+                        {/* Subtle background for visibility */}
+                        <div className="absolute inset-0 rounded-full lcars-nav-active backdrop-blur-sm border border-orange-400/30"></div>
+                        
+                        <img 
+                            src={tngBadge} 
+                            alt="TNG Badge"
+                            className="w-full h-full object-contain relative z-10"
+                        />
+                    </div>
+
+                    {/* LCARS container - always present but invisible when collapsed */}
                     <div className={`
                         lcars-glass-panel rounded-3xl relative overflow-hidden
                         transition-all duration-700 ease-out
-                        ${isExpanded ? 'p-6 mb-4' : 'p-4 mb-6'}
+                        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+                        p-6 mb-4
                     `}>
                         <div className="relative z-10">
-                            {/* Star Trek Badge + LCARS header */}
-                            <div className={`
-                                flex items-center
-                                transition-all duration-700 ease-out
-                                ${isExpanded ? 'mb-4 justify-start' : 'mb-0 justify-center'}
-                            `}>
-                                {/* TNG Badge - clickable toggle */}
-                                <div
-                                    className={`
-                                        cursor-pointer select-none transition-all duration-700 ease-out
-                                        hover:scale-110 hover:rotate-3 hover:drop-shadow-[0_0_20px_rgba(251,146,60,0.6)]
-                                        w-12 h-12
-                                        relative flex items-center justify-center
-                                    `}
-                                    onClick={() => setIsExpanded(!isExpanded)}
-                                >
-                                    {/* Subtle background for visibility */}
-                                    <div className="absolute inset-0 rounded-full bg-orange-500/20 backdrop-blur-sm border border-orange-400/30"></div>
-                                    
-                                    <img 
-                                        src={tngBadge} 
-                                        alt="TNG Badge"
-                                        className="w-full h-full object-contain relative z-10"
-                                    />
-                                    
-                                    {/* Fallback indicator if SVG is invisible
-                                    <div className="absolute inset-0 flex items-center justify-center text-orange-400 font-bold text-xs opacity-30 pointer-events-none">
-                                        TNG
-                                    </div> */}
-                                </div>
+                            {/* container for badge space and text */}
+                            <div className="flex items-center mb-4">
+                                {/* space reserved for the external badge */}
+                                <div className="w-12 h-12 flex-shrink-0"></div>
                                 
-                                {/* LCARS text - only visible when expanded */}
+                                {/* LCARS text - fades in next to badge */}
                                 <div className={`
-                                    text-white font-black tracking-wider
-                                    transition-all duration-700 ease-out overflow-hidden
-                                    ${isExpanded ? 'text-3xl ml-4 max-w-full opacity-100' : 'text-xl max-w-0 opacity-0 ml-0'}
+                                    text-white font-black tracking-wider text-3xl ml-4
+                                    transition-all duration-700 ease-out
+                                    ${isExpanded ? 'opacity-100' : 'opacity-0'}
                                 `}>
                                     <span className="whitespace-nowrap">LCARS</span>
                                 </div>
                             </div>
                             
-                            {/* Subtitle with smooth height transition */}
+                            {/* Subtitle - fades in below */}
                             <div className={`
                                 text-blue-300 text-sm opacity-90 tracking-widest font-semibold
-                                transition-all duration-700 ease-out overflow-hidden
-                                ${isExpanded ? 'max-h-8 opacity-90' : 'max-h-0 opacity-0'}
+                                transition-all duration-700 ease-out
+                                ${isExpanded ? 'opacity-90' : 'opacity-0'}
                             `}>
                                 <span className="whitespace-nowrap block">STARFLEET DATABASE</span>
                             </div>
@@ -88,11 +82,11 @@ const Navigation = () => {
                         <div className="absolute inset-0 opacity-30 lcars-gradient-animate"></div>
                     </div>
 
-                    {/* status bar with smooth transition */}
+                    {/* status bar - fades in when expanded */}
                     <div className={`
                         lcars-glass-panel rounded-2xl relative overflow-hidden
                         transition-all duration-700 ease-out
-                        ${isExpanded ? 'max-h-20 opacity-100 px-6 py-3' : 'max-h-0 opacity-0 px-0 py-0'}
+                        ${isExpanded ? 'opacity-100 px-6 py-3' : 'opacity-0 px-0 py-0 pointer-events-none'}
                     `}>
                         <div className="text-orange-400 text-xs font-bold tracking-widest text-center lcars-glow-orange">
                             <span className="whitespace-nowrap block">AUTHORIZED ACCESS ONLY</span>
@@ -153,27 +147,37 @@ const Navigation = () => {
                     ${isExpanded ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-8 pointer-events-none'}
                 `}>
                     <div className="lcars-glass-panel rounded-2xl p-4 mb-4">
-                        <h3 className="text-purple-400 font-bold text-sm tracking-widest text-center mb-3 lcars-glow-purple">
-                            SYSTEM STATUS
-                        </h3>
+                        <div className={`
+                            text-center mb-3
+                            transition-all duration-700 ease-out
+                            ${isExpanded ? 'opacity-100' : 'opacity-0'}
+                        `}>
+                            <h3 className="text-purple-400 font-bold text-sm tracking-widest lcars-glow-purple whitespace-nowrap">
+                                SYSTEM STATUS
+                            </h3>
+                        </div>
                         
-                        <div className="grid grid-cols-3 gap-2">
+                        <div className={`
+                            grid grid-cols-3 gap-2
+                            transition-all duration-700 ease-out
+                            ${isExpanded ? 'opacity-100' : 'opacity-0'}
+                        `}>
                             {/* POWER */}
                             <div className="lcars-status-indicator">
-                                <span className="text-xs font-semibold text-gray-400">POWER</span>
-                                <span className="text-xs font-bold text-green-400 lcars-glow-green">ONLINE</span>
+                                <span className="text-xs font-semibold text-gray-400 whitespace-nowrap">POWER</span>
+                                <span className="text-xs font-bold text-green-400 lcars-glow-green whitespace-nowrap">ONLINE</span>
                             </div>
                             
                             {/* SECTOR */}
                             <div className="lcars-status-indicator">
-                                <span className="text-xs font-semibold text-gray-400">SECTOR</span>
-                                <span className="text-xs font-bold text-blue-400 lcars-glow-blue">SOL-3</span>
+                                <span className="text-xs font-semibold text-gray-400 whitespace-nowrap">SECTOR</span>
+                                <span className="text-xs font-bold text-blue-400 lcars-glow-blue whitespace-nowrap">SOL-3</span>
                             </div>
                             
                             {/* ACCESS */}
                             <div className="lcars-status-indicator">
-                                <span className="text-xs font-semibold text-gray-400">ACCESS</span>
-                                <span className="text-xs font-bold text-purple-400 lcars-glow-purple">GUEST</span>
+                                <span className="text-xs font-semibold text-gray-400 whitespace-nowrap">ACCESS</span>
+                                <span className="text-xs font-bold text-purple-400 lcars-glow-purple whitespace-nowrap">GUEST</span>
                             </div>
                         </div>
                     </div>
