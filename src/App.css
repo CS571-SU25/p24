@@ -21,10 +21,9 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #000000;
+  /* background: #000000; */
   overflow-x: hidden;
 }
-
 /* LCARS color vars */
 .lcars-orange { color: #ff9900; }
 .lcars-blue { color: #9999ff; }
