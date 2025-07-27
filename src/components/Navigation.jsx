@@ -146,6 +146,7 @@ const Navigation = () => {
                     transition-all duration-700 ease-out
                     ${isExpanded ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-8 pointer-events-none'}
                 `}>
+                    
                     <div className="lcars-glass-panel rounded-2xl p-4 mb-4">
                         <div className={`
                             text-center mb-3

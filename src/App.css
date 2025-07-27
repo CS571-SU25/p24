@@ -272,6 +272,13 @@ body {
   }
 }
 
+@font-face {
+  font-family: "TNG";
+  src: url('assets/fonts/FederationTNGTitle.woff2') format('woff2'),
+       url('assets/fonts/FederationTNGTitle.woff') format('woff');
+  font-display: swap;
+}
+
 /*
 LCARS button styles
 .lcars-button {
