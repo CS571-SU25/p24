@@ -6,6 +6,9 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
+permissions:
+  contents: write  # This allows the action to push commits
+  
 jobs:
   update-spotify-data:
     runs-on: ubuntu-latest
@@ -13,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub token
       
     - name: Setup Node.js
       uses: actions/setup-node@v4
