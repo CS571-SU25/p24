@@ -1,5 +1,175 @@
 {
-  "topTracks": [],
-  "topArtists": [],
-  "lastUpdated": "2025-08-03T06:27:52.875Z"
+  "topTracks": [
+    {
+      "name": "E.B.I.T.D.A.",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b27369db71849f21d730954f1716",
+      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
+    },
+    {
+      "name": "idk wtf",
+      "artist": "prettifun",
+      "album": "idk wtf",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734f18ccba328542409b403099",
+      "external_url": "https://open.spotify.com/track/08xbiTcK2mCMmaAGOdVyVS"
+    },
+    {
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+    },
+    {
+      "name": "Behind the Bank",
+      "artist": "Oneohtrix Point Never",
+      "album": "Betrayed in the Octagon",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
+      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
+    },
+    {
+      "name": "CHAMPAIN & VACAY",
+      "artist": "Travis Scott",
+      "album": "CHAMPAIN & VACAY",
+      "image": "https://i.scdn.co/image/ab67616d0000b273124869b6f7df071e3c77d646",
+      "external_url": "https://open.spotify.com/track/1097cG16gzkhlPgkUt6KA0"
+    },
+    {
+      "name": "MARCELINE",
+      "artist": "Che",
+      "album": "REST IN BASS",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
+      "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
+    },
+    {
+      "name": "CONTEST",
+      "artist": "Travis Scott",
+      "album": "JACKBOYS 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b273658dd69528221574b829589a",
+      "external_url": "https://open.spotify.com/track/2j3vVnYP5uCWpeGYXqXrUu"
+    },
+    {
+      "name": "The Wind Song",
+      "artist": "Gigi Masin",
+      "album": "Wind",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e0b20f56f29016222e1ed2a8",
+      "external_url": "https://open.spotify.com/track/37wDs1QxOgwWV2pDUO7YQy"
+    },
+    {
+      "name": "MANNEQUIN",
+      "artist": "Che",
+      "album": "REST IN BASS",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
+      "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
+    },
+    {
+      "name": "The Birds Don't Sing",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b27369db71849f21d730954f1716",
+      "external_url": "https://open.spotify.com/track/6L3i4jdNnk0a9kMT3qIqTG"
+    }
+  ],
+  "topArtists": [
+    {
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7436a7275d9656896163efa3",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
+      ]
+    },
+    {
+      "name": "prettifun",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
+      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
+      "genres": [
+        "underground hip hop"
+      ]
+    },
+    {
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "genres": [
+        "rap"
+      ]
+    },
+    {
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
+      ]
+    },
+    {
+      "name": "Tim Hecker",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
+      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
+      "genres": [
+        "drone",
+        "ambient",
+        "dark ambient",
+        "idm",
+        "experimental",
+        "minimalism"
+      ]
+    },
+    {
+      "name": "Clipse",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
+      "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
+      "genres": [
+        "southern hip hop"
+      ]
+    },
+    {
+      "name": "Michael Giacchino",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
+      "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
+      "genres": [
+        "soundtrack"
+      ]
+    },
+    {
+      "name": "Oneohtrix Point Never",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
+      "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
+      "genres": [
+        "idm",
+        "drone",
+        "ambient",
+        "experimental",
+        "vaporwave"
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    {
+      "name": "Brian Eno",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5533ce5711f95f0c436b30fe",
+      "external_url": "https://open.spotify.com/artist/7MSUfLeTdDEoZiJPDSBXgi",
+      "genres": [
+        "ambient",
+        "krautrock",
+        "art rock",
+        "minimalism",
+        "drone",
+        "glam rock",
+        "space music"
+      ]
+    }
+  ],
+  "timeRange": "short_term",
+  "lastUpdated": "2025-08-03T06:36:01.273Z"
 }
