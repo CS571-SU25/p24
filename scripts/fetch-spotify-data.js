@@ -1,6 +1,11 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
+import fetch from 'node-fetch';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// get current directory in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function getAccessToken() {
   const response = await fetch('https://accounts.spotify.com/api/token', {
@@ -56,8 +61,11 @@ async function fetchSpotifyData() {
       lastUpdated: new Date().toISOString()
     };
 
+    // get project root directory (go up one level from scripts folder)
+    const projectRoot = path.dirname(__dirname);
+    const publicDir = path.join(projectRoot, 'public');
+    
     // ensure public directory exists
-    const publicDir = path.join(process.cwd(), 'public');
     if (!fs.existsSync(publicDir)) {
       fs.mkdirSync(publicDir, { recursive: true });
     }
@@ -67,6 +75,7 @@ async function fetchSpotifyData() {
     fs.writeFileSync(filePath, JSON.stringify(spotifyData, null, 2));
     
     console.log('Spotify data updated successfully!');
+    console.log(`File written to: ${filePath}`);
     console.log(`Top tracks: ${spotifyData.topTracks.length}`);
     console.log(`Top artists: ${spotifyData.topArtists.length}`);
     
