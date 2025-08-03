@@ -1,8 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import Starfield from '../components/Starfield';
 import LetterboxdFeed from '../components/LetterboxdFeed';
-
-
+import SpotifyStats from '../components/SpotifyStats';
 
 const About = () => {
     return (
@@ -47,6 +46,10 @@ const About = () => {
 
                     <section className="mb-12">
                         <LetterboxdFeed/>
+                    </section>
+
+                    <section className="mb-12">
+                        <SpotifyStats/>
                     </section>
 
                     {/* skills overview */}
