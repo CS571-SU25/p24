@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 import Galaxy from '../components/Galaxy';
 import Starfield from '../components/Starfield';
+import CareerTimeline from '../components/CareerTimeline';
 
 
 const Home = () => {
@@ -43,17 +44,15 @@ const Home = () => {
                 {/* Hero text overlay */}
                 <div className="absolute inset-0 flex items-center pointer-events-none">
                     <div className="text-left z-10 mb-50 ml-8 md:ml-16 lg:ml-24 max-w-xl">
+                        {/* <div className="text-sm md:text-base text-orange-400 mb-8">
+                            [ STARFLEET COMMAND ]
+                        </div> */}
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-blue-400 leading-tight" 
                             style={{ fontFamily: 'TNG, Orbitron, sans-serif' }}>
                             MAHIR HUSAIN KHAN
                         </h1>
+                        <p className="text-lg md:text-xl text-gray-300 mb-6">CS + DS Student at UW-Madison</p>
                         <p className="text-lg md:text-xl text-gray-300 mb-6">Software Engineer</p>
-                        <div className="text-sm md:text-base text-orange-400 mb-8">
-                            [ STARFLEET COMMAND • AUTHORIZED ACCESS ONLY ]
-                        </div>
-                        <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg transition-colors duration-200 pointer-events-auto">
-                            Explore Further
-                        </button>
                     </div>
                 </div>
             </div>
@@ -90,6 +89,11 @@ const Home = () => {
                             </p>
                         </div>
                     </section>
+
+                    <section className="mt-16">
+                        <CareerTimeline/>
+                    </section>
+
                 </div>
             </div>
         </>
