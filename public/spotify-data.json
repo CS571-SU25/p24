@@ -15,13 +15,6 @@
       "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
-      "name": "INFINITUDE // UROBOROS",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
-    },
-    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
@@ -41,6 +34,13 @@
       "album": "REST IN BASS",
       "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
       "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
+    },
+    {
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
       "name": "CONTEST",
@@ -82,19 +82,19 @@
       ]
     },
     {
-      "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
-      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
-      "genres": [
-        "underground hip hop"
-      ]
-    },
-    {
       "name": "Travis Scott",
       "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
       "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
         "rap"
+      ]
+    },
+    {
+      "name": "prettifun",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
+      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
+      "genres": [
+        "underground hip hop"
       ]
     },
     {
@@ -148,11 +148,11 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
       "genres": [
-        "bedroom pop"
+        "ambient"
       ]
     },
     {
@@ -170,5 +170,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-04T06:23:32.383Z"
+  "lastUpdated": "2025-08-05T06:19:37.112Z"
 }
