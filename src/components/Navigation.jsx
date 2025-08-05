@@ -6,8 +6,9 @@ const NAVIGATION_ITEMS = [
     { path: '/', label: 'HOME', id: '001' },
     { path: '/about', label: 'PERSONNEL', id: '002' },
     { path: '/projects', label: 'PROJECTS', id: '003' },
-    { path: '/tech-stack', label: 'TECH STACK', id: '004' },
-    { path: '/blog', label: 'LOGS', id: '005' }
+    // below are removed til further notice
+    // { path: '/tech-stack', label: 'TECH STACK', id: '004' },
+    // { path: '/blog', label: 'LOGS', id: '005' }
 ];
 
 const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay }) => {
