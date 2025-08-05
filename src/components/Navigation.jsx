@@ -1,30 +1,141 @@
 import { Link, useLocation } from "react-router";
-import { useState } from "react";
+import { useState, useMemo, useCallback, memo } from "react";
 import tngBadge from "../assets/TNG_badge.svg";
 
-const Navigation = () => {
+const NAVIGATION_ITEMS = [
+    { path: '/', label: 'HOME', id: '001' },
+    { path: '/about', label: 'PERSONNEL', id: '002' },
+    { path: '/projects', label: 'PROJECTS', id: '003' },
+    { path: '/tech-stack', label: 'TECH STACK', id: '004' },
+    { path: '/blog', label: 'LOGS', id: '005' }
+];
+
+const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay }) => {
+
+    // memoized classnames below for better performance
+    const linkClassName = useMemo(() => `
+        lcars-nav-button group
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0' : 'lcars-nav-collapsed transform -translate-x-full'}
+        ${isActive(item.path) ? 'lcars-nav-active' : ''}
+    `, [isExpanded, isActive, item.path]);
+
+    const labelClassName = useMemo(() => `
+        flex-1 text-left ml-4 font-bold tracking-wider
+        transition-all duration-700 ease-out overflow-hidden whitespace-nowrap
+        ${isExpanded ? 'max-w-full opacity-100' : 'max-w-0 opacity-0'}
+    `, [isExpanded]);
+
+    const indicatorClassName = useMemo(() => `
+        lcars-active-indicator
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}
+    `, [isExpanded]);
+
+    return (
+        <Link
+            key={item.path}
+            to={item.path}
+            className={linkClassName}
+            style={getTransitionDelay(index)}
+        >
+            <div className="relative z-10 flex items-center">
+                <span className="lcars-nav-id">
+                    {item.id}
+                </span>
+                <div className={labelClassName}>
+                    {item.label}
+                </div>
+                {isActive(item.path) && isExpanded && (
+                    <div className={indicatorClassName}></div>
+                )}
+            </div>
+            
+            <div className="lcars-button-glow"></div>
+        </Link>
+    );
+});
+
+const Navigation = memo(() => {
     const [isExpanded, setIsExpanded] = useState(false);
     const location = useLocation();
 
-    const navigationItems = [
-        { path: '/', label: 'HOME', id: '001' },
-        { path: '/about', label: 'PERSONNEL', id: '002' },
-        { path: '/projects', label: 'PROJECTS', id: '003' },
-        { path: '/tech-stack', label: 'TECH STACK', id: '004' },
-        { path: '/blog', label: 'LOGS', id: '005' }
-    ]
+    const toggleExpanded = useCallback(() => {
+        setIsExpanded(prev => !prev);
+    }, []);
 
-    const isActive = (path) => location.pathname === path;
+    const isActive = useCallback((path) => location.pathname === path, [location.pathname]);
+
+    // memoized all classnames for better performance.
+
+    const navClassName = useMemo(() => `
+        fixed top-0 left-0 h-full z-50
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'w-80' : 'w-24'}
+        p-6
+    `, [isExpanded]);
+
+    const lcarsContainerClassName = useMemo(() => `
+        lcars-glass-panel rounded-3xl relative overflow-hidden
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+        p-6 mb-4
+    `, [isExpanded]);
+
+    const lcarsTextClassName = useMemo(() => `
+        text-white font-black tracking-wider text-3xl ml-4
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+    `, [isExpanded]);
+
+    const subtitleClassName = useMemo(() => `
+        text-blue-300 text-sm opacity-90 tracking-widest font-semibold
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-90' : 'opacity-0'}
+    `, [isExpanded]);
+
+    const statusBarClassName = useMemo(() => `
+        lcars-glass-panel rounded-2xl relative overflow-hidden
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100 px-6 py-3' : 'opacity-0 px-0 py-0 pointer-events-none'}
+    `, [isExpanded]);
+
+    const navItemsClassName = useMemo(() => `
+        space-y-3
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'}
+    `, [isExpanded]);
+
+    const systemStatusClassName = useMemo(() => `
+        absolute bottom-6 left-6 right-6
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-8 pointer-events-none'}
+    `, [isExpanded]);
+
+    const contentSpacerClassName = useMemo(() => `
+        transition-all duration-700 ease-out ${isExpanded ? 'ml-80' : 'ml-24'}
+    `, [isExpanded]);
+
+    const getTransitionDelay = useCallback((index) => ({
+        transitionDelay: isExpanded ? `${index * 0.1}s` : '0s'
+    }), [isExpanded]);
+
+    const statusHeaderClassName = useMemo(() => `
+        text-center mb-3
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+    `, [isExpanded]);
+
+    const statusGridClassName = useMemo(() => `
+        grid grid-cols-3 gap-2
+        transition-all duration-700 ease-out
+        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+    `, [isExpanded]);
 
     return (
         <>
             {/* floating nav sidebar */}
-            <nav className={`
-                fixed top-0 left-0 h-full z-50
-                transition-all duration-700 ease-out
-                ${isExpanded ? 'w-80' : 'w-24'}
-                p-6
-            `}>
+            <nav className={navClassName}>
                 {/* Header section with fixed communicator position */}
                 <div className="mb-8 relative">
                     {/* Fixed Communicator Badge - OUTSIDE the container, always visible */}
@@ -33,7 +144,7 @@ const Navigation = () => {
                                    hover:scale-110 hover:rotate-3 hover:drop-shadow-[0_0_20px_rgba(251,146,60,0.6)]
                                    w-12 h-12 flex items-center justify-center
                                    transition-transform duration-300 ease-out"
-                        onClick={() => setIsExpanded(!isExpanded)}
+                        onClick={toggleExpanded}
                     >
                         {/* Subtle background for visibility */}
                         <div className="absolute inset-0 rounded-full lcars-nav-active backdrop-blur-sm border border-orange-400/30"></div>
@@ -46,12 +157,7 @@ const Navigation = () => {
                     </div>
 
                     {/* LCARS container - always present but invisible when collapsed */}
-                    <div className={`
-                        lcars-glass-panel rounded-3xl relative overflow-hidden
-                        transition-all duration-700 ease-out
-                        ${isExpanded ? 'opacity-100' : 'opacity-0'}
-                        p-6 mb-4
-                    `}>
+                    <div className={lcarsContainerClassName}>
                         <div className="relative z-10">
                             {/* container for badge space and text */}
                             <div className="flex items-center mb-4">
@@ -59,21 +165,13 @@ const Navigation = () => {
                                 <div className="w-12 h-12 flex-shrink-0"></div>
                                 
                                 {/* LCARS text - fades in next to badge */}
-                                <div className={`
-                                    text-white font-black tracking-wider text-3xl ml-4
-                                    transition-all duration-700 ease-out
-                                    ${isExpanded ? 'opacity-100' : 'opacity-0'}
-                                `}>
+                                <div className={lcarsTextClassName}>
                                     <span className="whitespace-nowrap">LCARS</span>
                                 </div>
                             </div>
                             
                             {/* Subtitle - fades in below */}
-                            <div className={`
-                                text-blue-300 text-sm opacity-90 tracking-widest font-semibold
-                                transition-all duration-700 ease-out
-                                ${isExpanded ? 'opacity-90' : 'opacity-0'}
-                            `}>
+                            <div className={subtitleClassName}>
                                 <span className="whitespace-nowrap block">STARFLEET DATABASE</span>
                             </div>
                         </div>
@@ -83,11 +181,7 @@ const Navigation = () => {
                     </div>
 
                     {/* status bar - fades in when expanded */}
-                    <div className={`
-                        lcars-glass-panel rounded-2xl relative overflow-hidden
-                        transition-all duration-700 ease-out
-                        ${isExpanded ? 'opacity-100 px-6 py-3' : 'opacity-0 px-0 py-0 pointer-events-none'}
-                    `}>
+                    <div className={statusBarClassName}>
                         <div className="text-orange-400 text-xs font-bold tracking-widest text-center lcars-glow-orange">
                             <span className="whitespace-nowrap block">AUTHORIZED ACCESS ONLY</span>
                         </div>
@@ -95,74 +189,30 @@ const Navigation = () => {
                 </div>
 
                 {/* nav items - floating buttons with staggered animation */}
-                <div className={`
-                    space-y-3
-                    transition-all duration-700 ease-out
-                    ${isExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'}
-                `}>
-                    {navigationItems.map((item, index) => (
-                        <Link
+                <div className={navItemsClassName}>
+                    {NAVIGATION_ITEMS.map((item, index) => (
+                        <NavigationItem
                             key={item.path}
-                            to={item.path}
-                            className={`
-                                lcars-nav-button group
-                                transition-all duration-700 ease-out
-                                ${isExpanded ? 'lcars-nav-expanded transform translate-x-0' : 'lcars-nav-collapsed transform -translate-x-full'}
-                                ${isActive(item.path) ? 'lcars-nav-active' : ''}
-                            `}
-                            style={{
-                                transitionDelay: isExpanded ? `${index * 0.1}s` : '0s'
-                            }}
-                        >
-                            <div className="relative z-10 flex items-center">
-                                <span className="lcars-nav-id">
-                                    {item.id}
-                                </span>
-                                <div className={`
-                                    flex-1 text-left ml-4 font-bold tracking-wider
-                                    transition-all duration-700 ease-out overflow-hidden whitespace-nowrap
-                                    ${isExpanded ? 'max-w-full opacity-100' : 'max-w-0 opacity-0'}
-                                `}>
-                                    {item.label}
-                                </div>
-                                {isActive(item.path) && isExpanded && (
-                                    <div className={`
-                                        lcars-active-indicator
-                                        transition-all duration-700 ease-out
-                                        ${isExpanded ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}
-                                    `}></div>
-                                )}
-                            </div>
-                            
-                            {/* hover glow effect */}
-                            <div className="lcars-button-glow"></div>
-                        </Link>
+                            item={item}
+                            index={index}
+                            isExpanded={isExpanded}
+                            isActive={isActive}
+                            getTransitionDelay={getTransitionDelay}
+                        />
                     ))}
                 </div>
 
                 {/* system status panel - floating at bottom with smooth transition */}
-                <div className={`
-                    absolute bottom-6 left-6 right-6
-                    transition-all duration-700 ease-out
-                    ${isExpanded ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-8 pointer-events-none'}
-                `}>
+                <div className={systemStatusClassName}>
                     
                     <div className="lcars-glass-panel rounded-2xl p-4 mb-4">
-                        <div className={`
-                            text-center mb-3
-                            transition-all duration-700 ease-out
-                            ${isExpanded ? 'opacity-100' : 'opacity-0'}
-                        `}>
+                        <div className={statusHeaderClassName}>
                             <h3 className="text-purple-400 font-bold text-sm tracking-widest lcars-glow-purple whitespace-nowrap">
                                 SYSTEM STATUS
                             </h3>
                         </div>
                         
-                        <div className={`
-                            grid grid-cols-3 gap-2
-                            transition-all duration-700 ease-out
-                            ${isExpanded ? 'opacity-100' : 'opacity-0'}
-                        `}>
+                        <div className={statusGridClassName}>
                             {/* POWER */}
                             <div className="lcars-status-indicator">
                                 <span className="text-xs font-semibold text-gray-400 whitespace-nowrap">POWER</span>
@@ -194,11 +244,11 @@ const Navigation = () => {
             </nav>
 
             {/* content area spacer with smooth transition */}
-            <div className={`transition-all duration-700 ease-out ${isExpanded ? 'ml-80' : 'ml-24'}`}>
+            <div className={contentSpacerClassName}>
                 {/* Content goes here */}
             </div>
         </>
     )
-}
+});
 
 export default Navigation
