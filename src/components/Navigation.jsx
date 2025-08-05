@@ -15,21 +15,21 @@ const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionD
     // memoized classnames below for better performance
     const linkClassName = useMemo(() => `
         lcars-nav-button group
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0' : 'lcars-nav-collapsed transform -translate-x-full'}
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0 scale-100' : 'lcars-nav-collapsed transform translate-x-0 scale-100'}
         ${isActive(item.path) ? 'lcars-nav-active' : ''}
     `, [isExpanded, isActive, item.path]);
 
     const labelClassName = useMemo(() => `
         flex-1 text-left ml-4 font-bold tracking-wider
-        transition-all duration-700 ease-out overflow-hidden whitespace-nowrap
-        ${isExpanded ? 'max-w-full opacity-100' : 'max-w-0 opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) overflow-hidden whitespace-nowrap
+        ${isExpanded ? 'max-w-full transform scale-100' : 'max-w-0 transform scale-0'}
     `, [isExpanded]);
 
     const indicatorClassName = useMemo(() => `
         lcars-active-indicator
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100 scale-100' : 'opacity-0 scale-0'}
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
 
     return (
@@ -70,50 +70,50 @@ const Navigation = memo(() => {
 
     const navClassName = useMemo(() => `
         fixed top-0 left-0 h-full z-50
-        transition-all duration-700 ease-out
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
         ${isExpanded ? 'w-80' : 'w-24'}
         p-6
     `, [isExpanded]);
 
     const lcarsContainerClassName = useMemo(() => `
         lcars-glass-panel rounded-3xl relative overflow-hidden
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
         p-6 mb-4
     `, [isExpanded]);
 
     const lcarsTextClassName = useMemo(() => `
         text-white font-black tracking-wider text-3xl ml-4
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
 
     const subtitleClassName = useMemo(() => `
         text-blue-300 text-sm opacity-90 tracking-widest font-semibold
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-90' : 'opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
 
     const statusBarClassName = useMemo(() => `
         lcars-glass-panel rounded-2xl relative overflow-hidden
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100 px-6 py-3' : 'opacity-0 px-0 py-0 pointer-events-none'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100 px-6 py-3' : 'transform scale-0 px-0 py-0 pointer-events-none'}
     `, [isExpanded]);
 
     const navItemsClassName = useMemo(() => `
         space-y-3
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'}
+        transition-all duration-1000 ease-out
+        ${isExpanded ? 'transform translate-x-0 scale-100' : 'transform translate-x-0 scale-0 pointer-events-none'}
     `, [isExpanded]);
 
     const systemStatusClassName = useMemo(() => `
         absolute bottom-6 left-6 right-6
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-8 pointer-events-none'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform translate-y-0 scale-100' : 'transform translate-y-8 scale-0 pointer-events-none'}
     `, [isExpanded]);
 
     const contentSpacerClassName = useMemo(() => `
-        transition-all duration-700 ease-out ${isExpanded ? 'ml-80' : 'ml-24'}
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) ${isExpanded ? 'ml-80' : 'ml-24'}
     `, [isExpanded]);
 
     const getTransitionDelay = useCallback((index) => ({
@@ -122,14 +122,14 @@ const Navigation = memo(() => {
 
     const statusHeaderClassName = useMemo(() => `
         text-center mb-3
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
 
     const statusGridClassName = useMemo(() => `
         grid grid-cols-3 gap-2
-        transition-all duration-700 ease-out
-        ${isExpanded ? 'opacity-100' : 'opacity-0'}
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
 
     return (
