@@ -12,7 +12,24 @@ const LetterboxdFeed = () => {
                 const proxyUrl = 'https://api.allorigins.win/raw?url=';
                 const rssUrl = 'https://letterboxd.com/MeatyMahir/rss/';
                 
-                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
+                // Add timeout and proper error handling
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000);
+                
+                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl), {
+                    signal: controller.signal,
+                    headers: {
+                        'Accept': 'application/rss+xml, application/xml, text/xml',
+                        'X-Requested-With': 'XMLHttpRequest'
+                    }
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
                 const xmlText = await response.text();
                 
                 // Parse XML
