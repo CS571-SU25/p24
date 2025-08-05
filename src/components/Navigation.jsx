@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router";
-import { useState, useMemo, useCallback, memo, useEffect } from "react";
+import { useState, useMemo, useCallback, memo } from "react";
 import tngBadge from "../assets/TNG_badge.svg";
 
 const NAVIGATION_ITEMS = [
@@ -10,62 +10,34 @@ const NAVIGATION_ITEMS = [
     { path: '/blog', label: 'LOGS', id: '005' }
 ];
 
-const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay, isMobile }) => {
+const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay }) => {
 
-    // Use simpler animations for mobile
-    const linkClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                lcars-nav-button group
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'lcars-nav-expanded' : 'lcars-nav-collapsed'}
-                ${isActive(item.path) ? 'lcars-nav-active' : ''}
-            `;
-        }
-        return `
-            lcars-nav-button group
-            transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
-            ${isExpanded ? 'lcars-nav-expanded transform translate-x-0 scale-100' : 'lcars-nav-collapsed transform translate-x-0 scale-100'}
-            ${isActive(item.path) ? 'lcars-nav-active' : ''}
-        `;
-    }, [isExpanded, isActive, item.path, isMobile]);
+    // memoized classnames below for better performance
+    const linkClassName = useMemo(() => `
+        lcars-nav-button group
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0 scale-100' : 'lcars-nav-collapsed transform translate-x-0 scale-100'}
+        ${isActive(item.path) ? 'lcars-nav-active' : ''}
+    `, [isExpanded, isActive, item.path]);
 
-    const labelClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                flex-1 text-left ml-4 font-bold tracking-wider
-                transition-all duration-300 ease-out overflow-hidden whitespace-nowrap
-                ${isExpanded ? 'max-w-full opacity-100' : 'max-w-0 opacity-0'}
-            `;
-        }
-        return `
-            flex-1 text-left ml-4 font-bold tracking-wider
-            transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) overflow-hidden whitespace-nowrap
-            ${isExpanded ? 'max-w-full transform scale-100' : 'max-w-0 transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const labelClassName = useMemo(() => `
+        flex-1 text-left ml-4 font-bold tracking-wider
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) overflow-hidden whitespace-nowrap
+        ${isExpanded ? 'max-w-full transform scale-100' : 'max-w-0 transform scale-0'}
+    `, [isExpanded]);
 
-    const indicatorClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                lcars-active-indicator
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0'}
-            `;
-        }
-        return `
-            lcars-active-indicator
-            transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const indicatorClassName = useMemo(() => `
+        lcars-active-indicator
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+    `, [isExpanded]);
 
     return (
         <Link
             key={item.path}
             to={item.path}
             className={linkClassName}
-            style={isMobile ? {} : getTransitionDelay(index)}
+            style={getTransitionDelay(index)}
         >
             <div className="relative z-10 flex items-center">
                 <span className="lcars-nav-id">
@@ -79,29 +51,14 @@ const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionD
                 )}
             </div>
             
-            {!isMobile && <div className="lcars-button-glow"></div>}
+            <div className="lcars-button-glow"></div>
         </Link>
     );
 });
 
 const Navigation = memo(() => {
     const [isExpanded, setIsExpanded] = useState(false);
-    const [isMobile, setIsMobile] = useState(false);
     const location = useLocation();
-
-    // Detect mobile devices and screen size
-    useEffect(() => {
-        const checkMobile = () => {
-            const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            const isSmallScreen = window.innerWidth <= 768;
-            setIsMobile(isMobileDevice || isSmallScreen);
-        };
-
-        checkMobile();
-        window.addEventListener('resize', checkMobile);
-        
-        return () => window.removeEventListener('resize', checkMobile);
-    }, []);
 
     const toggleExpanded = useCallback(() => {
         setIsExpanded(prev => !prev);
@@ -109,154 +66,71 @@ const Navigation = memo(() => {
 
     const isActive = useCallback((path) => location.pathname === path, [location.pathname]);
 
-    // memoized all classnames for better performance - with mobile optimizations
+    // memoized all classnames for better performance.
 
-    const navClassName = useMemo(() => {
-        const baseDuration = isMobile ? 'duration-300' : 'duration-1000';
-        const easing = isMobile ? 'ease-out' : 'cubic-bezier(0.25, 0.46, 0.45, 0.94)';
-        const width = isExpanded ? (isMobile ? 'w-72' : 'w-80') : 'w-24';
-        
-        return `
-            fixed top-0 left-0 h-full z-50
-            transition-all ${baseDuration} ${easing}
-            ${width}
-            p-6
-        `;
-    }, [isExpanded, isMobile]);
+    const navClassName = useMemo(() => `
+        fixed top-0 left-0 h-full z-50
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        ${isExpanded ? 'w-80' : 'w-24'}
+        p-6
+    `, [isExpanded]);
 
-    const lcarsContainerClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                lcars-glass-panel rounded-3xl relative overflow-hidden
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}
-                p-6 mb-4
-            `;
-        }
-        return `
-            lcars-glass-panel rounded-3xl relative overflow-hidden
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-            p-6 mb-4
-        `;
-    }, [isExpanded, isMobile]);
+    const lcarsContainerClassName = useMemo(() => `
+        lcars-glass-panel rounded-3xl relative overflow-hidden
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+        p-6 mb-4
+    `, [isExpanded]);
 
-    const lcarsTextClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                text-white font-black tracking-wider text-3xl ml-4
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0'}
-            `;
-        }
-        return `
-            text-white font-black tracking-wider text-3xl ml-4
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const lcarsTextClassName = useMemo(() => `
+        text-white font-black tracking-wider text-3xl ml-4
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+    `, [isExpanded]);
 
-    const subtitleClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                text-blue-300 text-sm opacity-90 tracking-widest font-semibold
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-90' : 'opacity-0'}
-            `;
-        }
-        return `
-            text-blue-300 text-sm opacity-90 tracking-widest font-semibold
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const subtitleClassName = useMemo(() => `
+        text-blue-300 text-sm opacity-90 tracking-widest font-semibold
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+    `, [isExpanded]);
 
-    const statusBarClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                lcars-glass-panel rounded-2xl relative overflow-hidden
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100 px-6 py-3' : 'opacity-0 px-0 py-0 pointer-events-none'}
-            `;
-        }
-        return `
-            lcars-glass-panel rounded-2xl relative overflow-hidden
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100 px-6 py-3' : 'transform scale-0 px-0 py-0 pointer-events-none'}
-        `;
-    }, [isExpanded, isMobile]);
+    const statusBarClassName = useMemo(() => `
+        lcars-glass-panel rounded-2xl relative overflow-hidden
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100 px-6 py-3' : 'transform scale-0 px-0 py-0 pointer-events-none'}
+    `, [isExpanded]);
 
-    const navItemsClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                space-y-3
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'}
-            `;
-        }
-        return `
-            space-y-3
-            transition-all duration-1000 ease-out
-            ${isExpanded ? 'transform translate-x-0 scale-100' : 'transform translate-x-0 scale-0 pointer-events-none'}
-        `;
-    }, [isExpanded, isMobile]);
+    const navItemsClassName = useMemo(() => `
+        space-y-3
+        transition-all duration-1000 ease-out
+        ${isExpanded ? 'transform translate-x-0 scale-100' : 'transform translate-x-0 scale-0 pointer-events-none'}
+    `, [isExpanded]);
 
-    const systemStatusClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                absolute bottom-6 left-6 right-6
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'}
-            `;
-        }
-        return `
-            absolute bottom-6 left-6 right-6
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform translate-y-0 scale-100' : 'transform translate-y-8 scale-0 pointer-events-none'}
-        `;
-    }, [isExpanded, isMobile]);
+    const systemStatusClassName = useMemo(() => `
+        absolute bottom-6 left-6 right-6
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform translate-y-0 scale-100' : 'transform translate-y-8 scale-0 pointer-events-none'}
+    `, [isExpanded]);
 
-    const contentSpacerClassName = useMemo(() => {
-        const baseDuration = isMobile ? 'duration-300' : 'duration-1000';
-        const easing = isMobile ? 'ease-out' : 'cubic-bezier(0.25, 0.46, 0.45, 0.94)';
-        const margin = isExpanded ? (isMobile ? 'ml-72' : 'ml-80') : 'ml-24';
-        
-        return `transition-all ${baseDuration} ${easing} ${margin}`;
-    }, [isExpanded, isMobile]);
+    const contentSpacerClassName = useMemo(() => `
+        transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) ${isExpanded ? 'ml-80' : 'ml-24'}
+    `, [isExpanded]);
 
     const getTransitionDelay = useCallback((index) => ({
-        transitionDelay: isExpanded && !isMobile ? `${index * 0.1}s` : '0s'
-    }), [isExpanded, isMobile]);
+        transitionDelay: isExpanded ? `${index * 0.1}s` : '0s'
+    }), [isExpanded]);
 
-    const statusHeaderClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                text-center mb-3
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0'}
-            `;
-        }
-        return `
-            text-center mb-3
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const statusHeaderClassName = useMemo(() => `
+        text-center mb-3
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+    `, [isExpanded]);
 
-    const statusGridClassName = useMemo(() => {
-        if (isMobile) {
-            return `
-                grid grid-cols-3 gap-2
-                transition-all duration-300 ease-out
-                ${isExpanded ? 'opacity-100' : 'opacity-0'}
-            `;
-        }
-        return `
-            grid grid-cols-3 gap-2
-            transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
-            ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
-        `;
-    }, [isExpanded, isMobile]);
+    const statusGridClassName = useMemo(() => `
+        grid grid-cols-3 gap-2
+        transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
+        ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
+    `, [isExpanded]);
 
     return (
         <>
@@ -266,12 +140,10 @@ const Navigation = memo(() => {
                 <div className="mb-8 relative">
                     {/* Fixed Communicator Badge - OUTSIDE the container, always visible */}
                     <div
-                        className={`cursor-pointer select-none absolute top-6 left-6 z-30
+                        className="cursor-pointer select-none absolute top-6 left-6 z-30
+                                   hover:scale-110 hover:rotate-3 hover:drop-shadow-[0_0_20px_rgba(251,146,60,0.6)]
                                    w-12 h-12 flex items-center justify-center
-                                   ${isMobile 
-                                     ? 'hover:scale-105 transition-transform duration-200 ease-out' 
-                                     : 'hover:scale-110 hover:rotate-3 hover:drop-shadow-[0_0_20px_rgba(251,146,60,0.6)] transition-transform duration-300 ease-out'
-                                   }`}
+                                   transition-transform duration-300 ease-out"
                         onClick={toggleExpanded}
                     >
                         {/* Subtle background for visibility */}
@@ -304,10 +176,8 @@ const Navigation = memo(() => {
                             </div>
                         </div>
                         
-                        {/* animated gradient overlay - disabled on mobile for performance */}
-                        {!isMobile && (
-                            <div className="absolute inset-0 opacity-30 lcars-gradient-animate"></div>
-                        )}
+                        {/* animated gradient overlay */}
+                        <div className="absolute inset-0 opacity-30 lcars-gradient-animate"></div>
                     </div>
 
                     {/* status bar - fades in when expanded */}
@@ -328,7 +198,6 @@ const Navigation = memo(() => {
                             isExpanded={isExpanded}
                             isActive={isActive}
                             getTransitionDelay={getTransitionDelay}
-                            isMobile={isMobile}
                         />
                     ))}
                 </div>
@@ -364,12 +233,12 @@ const Navigation = memo(() => {
                         </div>
                     </div>
 
-                    {/* LCARS diagnostic strip - simplified for mobile */}
+                    {/* LCARS diagnostic strip */}
                     <div className="flex space-x-2">
-                        <div className={`flex-1 h-1 rounded-full ${isMobile ? 'bg-orange-400' : 'lcars-diagnostic-orange'}`}></div>
-                        <div className={`flex-1 h-1 rounded-full ${isMobile ? 'bg-blue-400' : 'lcars-diagnostic-blue'}`}></div>
-                        <div className={`flex-1 h-1 rounded-full ${isMobile ? 'bg-purple-400' : 'lcars-diagnostic-purple'}`}></div>
-                        <div className={`flex-1 h-1 rounded-full ${isMobile ? 'bg-green-400' : 'lcars-diagnostic-green'}`}></div>
+                        <div className="flex-1 h-1 rounded-full lcars-diagnostic-orange"></div>
+                        <div className="flex-1 h-1 rounded-full lcars-diagnostic-blue"></div>
+                        <div className="flex-1 h-1 rounded-full lcars-diagnostic-purple"></div>
+                        <div className="flex-1 h-1 rounded-full lcars-diagnostic-green"></div>
                     </div>
                 </div>
             </nav>
