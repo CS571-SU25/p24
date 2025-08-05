@@ -116,9 +116,15 @@ const Navigation = memo(() => {
         transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94) ${isExpanded ? 'ml-80' : 'ml-24'}
     `, [isExpanded]);
 
-    const getTransitionDelay = useCallback((index) => ({
-        transitionDelay: isExpanded ? `${index * 0.1}s` : '0s'
-    }), [isExpanded]);
+    const getTransitionDelay = useCallback((index) => {
+        const totalItems = NAVIGATION_ITEMS.length;
+        const expandDelay = index * 0.15;
+        const collapseDelay = (totalItems - 1 - index) * 0.15;
+        
+        return {
+            transitionDelay: isExpanded ? `${expandDelay}s` : `${collapseDelay}s`
+        };
+    }, [isExpanded]);
 
     const statusHeaderClassName = useMemo(() => `
         text-center mb-3
