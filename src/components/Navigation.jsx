@@ -1,6 +1,24 @@
 import { Link, useLocation } from "react-router";
-import { useState, useMemo, useCallback, memo } from "react";
+import { useState, useMemo, useCallback, memo, useEffect } from "react";
 import tngBadge from "../assets/TNG_badge.svg";
+
+// Custom hook for mobile detection
+const useIsMobile = () => {
+    const [isMobile, setIsMobile] = useState(false);
+    
+    useEffect(() => {
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        
+        checkIsMobile();
+        window.addEventListener('resize', checkIsMobile);
+        
+        return () => window.removeEventListener('resize', checkIsMobile);
+    }, []);
+    
+    return isMobile;
+};
 
 const NAVIGATION_ITEMS = [
     { path: '/', label: 'HOME', id: '001' },
@@ -10,13 +28,34 @@ const NAVIGATION_ITEMS = [
     { path: '/blog', label: 'LOGS', id: '005' }
 ];
 
-const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay }) => {
+// Mobile Navigation Item (simplified and optimized)
+const MobileNavigationItem = memo(({ item, isActive, onClick }) => {
+    return (
+        <Link
+            to={item.path}
+            onClick={onClick}
+            className={`
+                block px-4 py-3 text-left font-bold tracking-wider
+                transition-all duration-300 ease-out
+                border-l-4 border-transparent
+                ${isActive(item.path) 
+                    ? 'bg-orange-400/20 border-orange-400 text-orange-400' 
+                    : 'text-white hover:bg-blue-400/10 hover:border-blue-400'
+                }
+            `}
+        >
+            <span className="text-xs text-gray-400 mr-3">{item.id}</span>
+            {item.label}
+        </Link>
+    );
+});
 
-    // memoized classnames below for better performance
+// Desktop Navigation Item (original complex version)
+const DesktopNavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionDelay }) => {
     const linkClassName = useMemo(() => `
         lcars-nav-button group
         transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
-        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0 scale-100' : 'lcars-nav-collapsed transform translate-x-0 scale-100'}
+        ${isExpanded ? 'lcars-nav-expanded transform translate-x-0 scale-100' : 'lcars-nav-collapsed transform translate-x-0 scale-0'}
         ${isActive(item.path) ? 'lcars-nav-active' : ''}
     `, [isExpanded, isActive, item.path]);
 
@@ -59,15 +98,97 @@ const NavigationItem = memo(({ item, index, isExpanded, isActive, getTransitionD
 const Navigation = memo(() => {
     const [isExpanded, setIsExpanded] = useState(false);
     const location = useLocation();
+    const isMobile = useIsMobile();
 
     const toggleExpanded = useCallback(() => {
         setIsExpanded(prev => !prev);
     }, []);
 
+    const closeMobileMenu = useCallback(() => {
+        if (isMobile) {
+            setIsExpanded(false);
+        }
+    }, [isMobile]);
+
     const isActive = useCallback((path) => location.pathname === path, [location.pathname]);
 
-    // memoized all classnames for better performance.
+    // Close mobile menu when location changes
+    useEffect(() => {
+        if (isMobile && isExpanded) {
+            setIsExpanded(false);
+        }
+    }, [location.pathname, isMobile]);
 
+    // Mobile Navigation Component
+    if (isMobile) {
+        return (
+            <>
+                {/* Mobile Header */}
+                <div className="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-orange-400/30">
+                    <div className="flex items-center justify-between p-4">
+                        <div className="flex items-center">
+                            <img 
+                                src={tngBadge} 
+                                alt="TNG Badge"
+                                className="w-8 h-8 mr-3"
+                            />
+                            <span className="text-white font-bold text-lg tracking-wider">LCARS</span>
+                        </div>
+                        <button
+                            onClick={toggleExpanded}
+                            className="w-10 h-10 flex flex-col items-center justify-center space-y-1 transition-all duration-300"
+                            aria-label="Toggle navigation menu"
+                        >
+                            <div className={`w-6 h-0.5 bg-orange-400 transition-all duration-300 ${isExpanded ? 'rotate-45 translate-y-1.5' : ''}`}></div>
+                            <div className={`w-6 h-0.5 bg-orange-400 transition-all duration-300 ${isExpanded ? 'opacity-0' : ''}`}></div>
+                            <div className={`w-6 h-0.5 bg-orange-400 transition-all duration-300 ${isExpanded ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
+                        </button>
+                    </div>
+                </div>
+
+                {/* Mobile Menu Overlay */}
+                {isExpanded && (
+                    <div 
+                        className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+                        onClick={closeMobileMenu}
+                    />
+                )}
+
+                {/* Mobile Menu */}
+                <div className={`
+                    fixed top-16 left-0 right-0 z-40 bg-gray-900/98 backdrop-blur-md border-b border-orange-400/30
+                    transform transition-all duration-300 ease-out
+                    ${isExpanded ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}
+                `}>
+                    <div className="p-2">
+                        {NAVIGATION_ITEMS.map((item) => (
+                            <MobileNavigationItem
+                                key={item.path}
+                                item={item}
+                                isActive={isActive}
+                                onClick={closeMobileMenu}
+                            />
+                        ))}
+                    </div>
+                    
+                    {/* Mobile Status */}
+                    <div className="px-4 py-3 border-t border-gray-700/50">
+                        <div className="text-xs text-gray-400 mb-2 tracking-widest">SYSTEM STATUS</div>
+                        <div className="flex flex-wrap gap-4 text-xs">
+                            <span className="text-green-400">POWER: ONLINE</span>
+                            <span className="text-blue-400">SECTOR: SOL-3</span>
+                            <span className="text-purple-400">ACCESS: GUEST</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Mobile Content Spacer */}
+                <div className="pt-16" />
+            </>
+        );
+    }
+
+    // Desktop Navigation (existing complex version)
     const navClassName = useMemo(() => `
         fixed top-0 left-0 h-full z-50
         transition-all duration-1000 cubic-bezier(0.25, 0.46, 0.45, 0.94)
@@ -197,7 +318,7 @@ const Navigation = memo(() => {
                 {/* nav items - floating buttons with staggered animation */}
                 <div className={navItemsClassName}>
                     {NAVIGATION_ITEMS.map((item, index) => (
-                        <NavigationItem
+                        <DesktopNavigationItem
                             key={item.path}
                             item={item}
                             index={index}
@@ -254,7 +375,7 @@ const Navigation = memo(() => {
                 {/* Content goes here */}
             </div>
         </>
-    )
+    );
 });
 
 export default Navigation
