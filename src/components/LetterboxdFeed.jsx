@@ -9,27 +9,10 @@ const LetterboxdFeed = () => {
         const fetchLetterboxdFeed = async () => {
             try {
                 // need to use a CORS proxy to fetch the RSS feed cuz no backend :()
-                const proxyUrl = 'https://api.allorigins.win/raw?url=';
+                const proxyUrl = 'https://corsproxy.io/?';
                 const rssUrl = 'https://letterboxd.com/MeatyMahir/rss/';
                 
-                // Add timeout and proper error handling
-                const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 10000);
-                
-                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl), {
-                    signal: controller.signal,
-                    headers: {
-                        'Accept': 'application/rss+xml, application/xml, text/xml',
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
-                });
-                
-                clearTimeout(timeoutId);
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                
+                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
                 const xmlText = await response.text();
                 
                 // Parse XML
