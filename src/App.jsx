@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router'
 import Home from './pages/Home';
 import Navigation from './components/Navigation';
+import { LoadingProvider, useLoading } from './hooks/useLoading';
 import './App.css'
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -9,13 +10,13 @@ import Blog from './pages/Blog';
 
 function AppContent() {
   const location = useLocation();
+  const { isLoading, currentPath } = useLoading();
 
   return (
     <div className='min-h-screen text-white'>
-      {/* navigation present on all pages */}
+      {/* The LoadingProvider now handles the loading screen and content visibility */}
       <Navigation />
-      
-      <main className={`transition-all duration-300 ml-0 `}>
+      <main>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
@@ -31,7 +32,9 @@ function AppContent() {
 function App() {
   return (
     <Router>
-      <AppContent />
+      <LoadingProvider>
+        <AppContent />
+      </LoadingProvider>
     </Router>
   )
 }
