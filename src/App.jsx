@@ -14,9 +14,16 @@ function AppContent() {
 
   return (
     <div className='min-h-screen text-white'>
+      {/* Skip navigation link for accessibility */}
+      <a 
+        href="#main-content" 
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-orange-400 focus:text-black focus:rounded focus:font-bold"
+      >
+        Skip to main content
+      </a>
       {/* The LoadingProvider now handles the loading screen and content visibility */}
       <Navigation />
-      <main>
+      <main role="main" aria-label="Main content" id="main-content">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
