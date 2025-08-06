@@ -4,7 +4,7 @@
       "name": "E.B.I.T.D.A.",
       "artist": "Clipse",
       "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b27369db71849f21d730954f1716",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
       "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
     },
     {
@@ -22,6 +22,13 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+    },
+    {
       "name": "CHAMPAIN & VACAY",
       "artist": "Travis Scott",
       "album": "CHAMPAIN & VACAY",
@@ -34,13 +41,6 @@
       "album": "REST IN BASS",
       "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
       "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
-    },
-    {
-      "name": "INFINITUDE // UROBOROS",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
       "name": "CONTEST",
@@ -67,7 +67,7 @@
       "name": "The Birds Don't Sing",
       "artist": "Clipse",
       "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b27369db71849f21d730954f1716",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
       "external_url": "https://open.spotify.com/track/6L3i4jdNnk0a9kMT3qIqTG"
     }
   ],
@@ -82,19 +82,19 @@
       ]
     },
     {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
-      "genres": [
-        "rap"
-      ]
-    },
-    {
       "name": "prettifun",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
         "underground hip hop"
+      ]
+    },
+    {
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "genres": [
+        "rap"
       ]
     },
     {
@@ -170,5 +170,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-05T06:19:37.112Z"
+  "lastUpdated": "2025-08-06T06:19:50.383Z"
 }
