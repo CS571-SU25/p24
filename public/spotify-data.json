@@ -15,6 +15,13 @@
       "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+    },
+    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
@@ -22,11 +29,11 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
-      "name": "INFINITUDE // UROBOROS",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+      "name": "Rolled1",
+      "artist": "prettifun",
+      "album": "FunHouse",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
+      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
       "name": "CHAMPAIN & VACAY",
@@ -62,13 +69,6 @@
       "album": "REST IN BASS",
       "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
       "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
-    },
-    {
-      "name": "The Birds Don't Sing",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/6L3i4jdNnk0a9kMT3qIqTG"
     }
   ],
   "topArtists": [
@@ -170,5 +170,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-06T06:19:50.383Z"
+  "lastUpdated": "2025-08-07T06:19:04.184Z"
 }
