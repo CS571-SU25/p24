@@ -1,62 +1,120 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo} from 'react';
+import enterpriseTop from "../assets/ncc1701-top-transparent.png"
+import enterpriseIso from "../assets/ncc1701-iso-transparent.png"
+import enterpriseFront from "../assets/ncc1701-front-transparent.png"
+
+
+const STATUS_CYCLE = [
+    "INITIALIZING SUBSPACE LINK",
+    "AUTHENTICATING STARFLEET NODE",
+    "SYNCING LCARS SUBROUTINES",
+    "SCANNING ISOLINEAR CHIPS",
+    "ALIGNING HEISENBERG COMPENSATORS"
+]
+
+const pageInfo = {
+    '/': {
+        msg: "ACCESSING STARFLEET DATABASE",
+        img: enterpriseTop
+    },
+    '/about': {
+        msg: "LOADING PERSONNEL RECORDS",
+        img: enterpriseIso
+    },
+    '/projects': {
+        msg: "SCANNING PROJECT ARCHIVE",
+        img: enterpriseFront
+    },
+}
 
 const LoadingScreen = ({ isLoading, currentPage }) => {
-    const [isShowing, setIsShowing] = useState(false);
+    const [mounted, setMounted] = useState(false);
     const [isOpaque, setIsOpaque] = useState(false);
+    const [tick, setTick] = useState(0);
+
+    const page = pageInfo[currentPage] ?? pageInfo["/"];
+    const message = useMemo(() => page.msg, [page]);
 
     useEffect(() => {
         if (isLoading) {
-            setIsShowing(true);
-            // Delay setting opacity to allow for mounting and transition
-            const timer = setTimeout(() => setIsOpaque(true), 50);
+            setMounted(true);
+            const timer = setTimeout(() => setIsOpaque(true), 30);
             return () => clearTimeout(timer);
         } else {
             setIsOpaque(false);
         }
     }, [isLoading]);
 
+    // rotate little status line while visible
+    useEffect(() => {
+        if (!mounted) return;
+        const id = setInterval(() => setTick((t) => (t + 1) % STATUS_CYCLE.length), 1600);
+        return () => clearInterval(id);
+    }, [mounted])
+
     const handleTransitionEnd = () => {
         if (!isLoading) {
-            setIsShowing(false);
+            setMounted(false);
         }
     };
 
-    // Simple page-specific messages
-    const pageMessages = {
-        '/': 'ACCESSING STARFLEET DATABASE',
-        '/about': 'LOADING PERSONNEL RECORDS',
-        '/projects': 'SCANNING PROJECT ARCHIVE',
-        '/tech-stack': 'ANALYZING TECHNOLOGY MATRIX',
-        '/blog': 'RETRIEVING CAPTAIN\'S LOGS'
-    };
-
-    if (!isShowing) return null;
-
-    const currentMessage = pageMessages[currentPage] || pageMessages['/'];
+    if (!mounted) return null;
 
     return (
         <div
-            className={`fixed inset-0 z-[9999] bg-black flex items-center justify-center transition-opacity duration-500 ${isOpaque ? 'opacity-100' : 'opacity-0'}`}
+            className={`lcars-loading-overlay fixed inset-0 z-[9999] transition-opacity duration-500 ${isOpaque ? "opacity-100" : "opacity-0"
+                }`}
             onTransitionEnd={handleTransitionEnd}
+            aria-live="polite"
+            role="status"
         >
-            <div className="text-center">
-                {/* LCARS Logo */}
-                <div className="text-orange-400 text-7xl font-bold mb-8" style={{ fontFamily: 'TNG, Orbitron, sans-serif' }}>
+            {/* center panel */}
+            <div className="lcars-panel">
+                <figure className="lcars-ship-wrap" aria-hidden>
+                    <img 
+                    src={page.img} 
+                    alt={`An image of the Constitution Class USS Enterprise `} 
+                    className="lcars-ship"
+                    draggable="false"
+                    />
+                    <span className="lcars-ship-glow" />
+                    <span className="lcars-ship-reflection" />
+                    <span className="lcars-ship-scanlines" />
+                </figure>
+
+                <div
+                    className="lcars-logo lcars-glow-orange"
+                    style={{ fontFamily: "TNG, Orbitron, sans-serif" }}
+                >
                     LCARS
                 </div>
-                
-                {/* Loading message */}
-                <div className="text-blue-300 text-xl tracking-widest mb-8">
-                    {currentMessage}
+
+                <div className="lcars-subtitle">{message}</div>
+
+                {/* segmented progress bar */}
+                <div className="lcars-segbar" aria-label="Loading progress">
+                    {Array.from({ length: 12 }).map((_, i) => (
+                        <span
+                            // stagger the animation for each segment
+                            key={i}
+                            style={{ animationDelay: `${i * 90}ms` }}
+                            className="lcars-seg"
+                        />
+                    ))}
                 </div>
 
-                {/* Simple status indicator */}
-                <div className="flex items-center justify-center mt-8">
-                    <div className="w-3 h-3 bg-orange-400 rounded-full animate-pulse mr-3"></div>
-                    <span className="text-gray-400 text-sm tracking-wider">
-                        LOADING...
+                {/* small status ticker */}
+                <div className="lcars-ticker">
+                    <span className="lcars-dot" />
+                    <span className="lcars-ticker-text">
+                        {STATUS_CYCLE[tick]}
                     </span>
                 </div>
+            </div>
+
+            {/* subtle corner badge */}
+            <div className="lcars-corner-id">
+                NCC-1701 • UX OPS
             </div>
         </div>
     );

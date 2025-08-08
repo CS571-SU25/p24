@@ -312,3 +312,166 @@ body {
        url('assets/fonts/FederationTNGTitle.woff') format('woff');
   font-display: swap;
 }
+
+/* ===== LCARS Loading Overlay ===== */
+.lcars-loading-overlay {
+  background:
+    radial-gradient(1200px 600px at 70% 30%, rgba(128, 90, 213, 0.18), transparent 60%),
+    radial-gradient(1000px 500px at 35% 70%, rgba(59, 130, 246, 0.12), transparent 60%),
+    /* starfield (cheap): two layered noise dots */
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,.7) 50%, transparent 51%),
+    radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,.6) 50%, transparent 51%),
+    radial-gradient(1px 1px at 75% 50%, rgba(255,255,255,.5) 50%, transparent 51%),
+    #000;
+  background-size: auto, auto, 200px 200px, 250px 250px, 300px 300px, auto;
+  animation: lcarsStarDrift 30s linear infinite;
+}
+
+/* Glassy center panel */
+.lcars-panel {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(720px, 92vw);
+  height: 320px;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 32px 28px;
+  text-align: center;
+  /* inherit your glass style */
+}
+
+/* LCARS pylons (curved side bars) */
+.lcars-arc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 110px;
+  opacity: 0.9;
+  background: linear-gradient(180deg, rgba(251,146,60,0.4), rgba(251,146,60,0.1));
+  border: 1px solid rgba(251,146,60,0.35);
+  box-shadow: inset 0 0 24px rgba(251,146,60,0.2);
+  will-change: transform, opacity;
+}
+
+.lcars-arc-left {
+  left: 0;
+  border-radius: 0 80px 80px 0;
+  transform: translateX(-12px);
+}
+
+.lcars-arc-right {
+  right: 0;
+  border-radius: 80px 0 0 80px;
+  transform: translateX(12px);
+}
+
+/* Logo + subtitle */
+.lcars-logo {
+  font-size: clamp(48px, 7vw, 80px);
+  letter-spacing: 2px;
+  color: #fb923c;
+  text-transform: uppercase;
+}
+
+.lcars-subtitle {
+  color: #9db5ff;
+  letter-spacing: 0.35em;
+  font-size: clamp(12px, 2.2vw, 16px);
+  opacity: 0.95;
+}
+
+/* Segmented bar */
+.lcars-segbar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  width: min(620px, 90vw);
+  margin-top: 6px;
+}
+
+.lcars-seg {
+  height: 12px;
+  border-radius: 10px;
+  background: rgba(251,146,60,0.22);
+  overflow: hidden;
+  position: relative;
+  transform: translateZ(0);
+}
+.lcars-seg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(251,146,60,.0), rgba(251,146,60,.9), rgba(251,146,60,.0));
+  transform: translateX(-100%);
+  animation: lcarsSweep 1.4s cubic-bezier(.4,0,.2,1) infinite;
+}
+.lcars-seg {
+  animation: lcarsPulse 1.4s ease-in-out infinite;
+}
+
+/* Ticker */
+.lcars-ticker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+  font-size: 12px;
+  letter-spacing: .2em;
+  color: rgba(229,231,235,.85);
+}
+.lcars-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #fb923c;
+  box-shadow: 0 0 10px #fb923c;
+  animation: lcarsBlink 1s ease-in-out infinite;
+}
+.lcars-ticker-text {
+  white-space: nowrap;
+  max-width: calc(min(560px, 80vw));
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+/* tiny corner id */
+.lcars-corner-id {
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
+  font-size: 11px;
+  letter-spacing: .25em;
+  color: rgba(148,163,184,.8);
+}
+
+/* Animations */
+@keyframes lcarsSweep {
+  0%   { transform: translateX(-120%); }
+  60%  { transform: translateX(120%); }
+  100% { transform: translateX(120%); }
+}
+@keyframes lcarsPulse {
+  0%,100% { filter: brightness(1); }
+  50%     { filter: brightness(1.35); }
+}
+@keyframes lcarsBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .45; }
+}
+@keyframes lcarsStarDrift {
+  0%   { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 0 0, 0 0, 200px 200px, 250px 250px, 300px 300px, 0 0; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .lcars-loading-overlay,
+  .lcars-seg::before,
+  .lcars-seg,
+  .lcars-dot { animation: none !important; }
+}
+
