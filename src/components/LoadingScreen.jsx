@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo} from 'react';
-import enterpriseTop from "../assets/ncc1701-top-transparent.png"
-import enterpriseIso from "../assets/ncc1701-iso-transparent.png"
-import enterpriseFront from "../assets/ncc1701-front-transparent.png"
+import enterpriseTop from "../assets/ncc1701-top-transparent.webp"
+import enterpriseIso from "../assets/ncc1701-iso-transparent.webp"
+import enterpriseFront from "../assets/ncc1701-front-transparent.webp"
 
 
 const STATUS_CYCLE = [

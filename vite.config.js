@@ -10,6 +10,15 @@ export default defineConfig({
   ],
   base: '/p24',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router'],
+          three: ['three', '@react-three/fiber', '@react-three/drei']
+        }
+      }
+    }
   }
 })
