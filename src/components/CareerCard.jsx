@@ -1,21 +1,26 @@
 const CareerCard = ({status, company, position, description, img}) => {
 
-    let statusColor = "" // status color set below
+    // Define complete class names to ensure Tailwind includes them in the build
+    let borderColorClass = ""
+    let textColorClass = ""
 
-    if (status == "Previous") {
-        statusColor = "purple"
-    } else if (status == "Incoming") {
-        statusColor = "green"
+    if (status === "Previous") {
+        borderColorClass = "border-purple-400"
+        textColorClass = "text-purple-400"
+    } else if (status === "Incoming") {
+        borderColorClass = "border-green-400"
+        textColorClass = "text-green-400"
     } else { // Current
-        statusColor = "orange"
+        borderColorClass = "border-orange-400"
+        textColorClass = "text-orange-400"
     }
     
 
     return (
-        <div className={`bg-gray-900 p-6 rounded-lg border-l-4 border-${statusColor}-400 hover:bg-gray-800 transition-all duration-300 group shadow-lg hover:shadow-xl`}>
+        <div className={`bg-gray-900 p-6 rounded-lg border-l-4 ${borderColorClass} hover:bg-gray-800 transition-all duration-300 group shadow-lg hover:shadow-xl`}>
             <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                    <h3 className={`font-semibold text-lg text-${statusColor}-400 mb-2`}>{status}</h3>
+                    <h3 className={`font-semibold text-lg ${textColorClass} mb-2`}>{status}</h3>
                     <h4 className="text-blue-400 text-xl font-bold mb-1 group-hover:text-blue-300 transition-colors">{company}</h4>
                     <p className="text-green-400 text-lg font-medium mb-3">{position}</p>
                 </div>
