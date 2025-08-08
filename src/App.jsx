@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router'
+import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router'
 import Home from './pages/Home';
 import Navigation from './components/Navigation';
 import { LoadingProvider, useLoading } from './hooks/useLoading';
@@ -30,6 +30,7 @@ function AppContent() {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/tech-stack' element={<TechStack/>} />
           <Route path='/blog' element={<Blog/>}/>
+          <Route path='*' element={<Navigate to="/" replace />} />
         </Routes>
       </main>
     </div>
