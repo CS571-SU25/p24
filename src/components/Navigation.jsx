@@ -84,7 +84,7 @@ const Navigation = memo(() => {
     `, [isExpanded]);
 
     const lcarsTextClassName = useMemo(() => `
-        text-white font-black tracking-wider text-3xl ml-4
+        text-orange-400 font-black tracking-wider text-5xl ml-4
         transition-all duration-1000 cubic-bezier(0.34, 1.56, 0.64, 1)
         ${isExpanded ? 'transform scale-100' : 'transform scale-0'}
     `, [isExpanded]);
@@ -166,7 +166,7 @@ const Navigation = memo(() => {
                                 <div className="w-12 h-12 flex-shrink-0"></div>
                                 
                                 {/* LCARS text - fades in next to badge */}
-                                <div className={lcarsTextClassName}>
+                                <div className={lcarsTextClassName} style={{ fontFamily: "TNG, Orbitron, sans-serif" }}>
                                     <span className="whitespace-nowrap">LCARS</span>
                                 </div>
                             </div>
