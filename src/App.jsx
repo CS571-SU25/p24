@@ -26,7 +26,7 @@ function AppContent() {
       <main role="main" aria-label="Main content" id="main-content">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/personal-log' element={<About />} />
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/tech-stack' element={<TechStack/>} />
           <Route path='/blog' element={<Blog/>}/>

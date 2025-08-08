@@ -4,7 +4,7 @@ import tngBadge from "../assets/TNG_badge.svg";
 
 const NAVIGATION_ITEMS = [
     { path: '/', label: 'HOME', id: '001' },
-    { path: '/about', label: 'PERSONNEL', id: '002' },
+    { path: '/personal-log', label: 'PERSONAL LOG', id: '002' },
     { path: '/projects', label: 'PROJECTS', id: '003' },
     // below are removed til further notice
     // { path: '/tech-stack', label: 'TECH STACK', id: '004' },

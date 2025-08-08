@@ -17,7 +17,7 @@ const pageInfo = {
         msg: "ACCESSING STARFLEET DATABASE",
         img: enterpriseTop
     },
-    '/about': {
+    '/personal-log': {
         msg: "LOADING PERSONNEL RECORDS",
         img: enterpriseIso
     },

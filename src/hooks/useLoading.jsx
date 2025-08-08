@@ -15,7 +15,7 @@ export const LoadingProvider = ({ children }) => {
         const timer = setTimeout(() => {
             setIsLoading(false);
             setIsInitialLoad(false);
-        }, 2500);
+        }, 1000);
         return () => clearTimeout(timer);
     }, []);
 
@@ -32,7 +32,7 @@ export const LoadingProvider = ({ children }) => {
         
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 2500);
+        }, 800);
 
         return () => clearTimeout(timer);
     }, [location.pathname, isInitialLoad]);
