@@ -25,21 +25,19 @@ const About = () => {
             <div className="relative z-10 p-8 min-h-screen">
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl font-bold text-orange-400 mb-8">
-                        [ PERSONNEL RECORD ]
+                        [ PERSONAL LOG ]
                     </h1>
 
                     {/* bio */}
                     <section className="mb-12">
-                        <h2 className="text-2xl font-bold text-blue-400 mb-4">BIOGRAPHICAL DATA</h2>
+                        <h2 className="text-2xl font-bold text-blue-400 mb-4">RECENT ACTIVITY</h2>
                         <div className="bg-gray-900/90 backdrop-blur-sm p-6 rounded-lg">
                             <p className="text-gray-300 leading-relaxed">
-                                I am an aspiring software engineer with a passion for creating innovative solutions
-                                and exploring the possibilities of technology. I believe in seeking out new technologies,
-                                new frameworks, and boldly building what no one has built before.
+                                I'm drawn to stories - whether they're told through film, music, books, or anything else. I also like keeping track of the things I watch and listen to.
                             </p>
                             <br />
                             <p className="text-gray-300 leading-relaxed">
-                                When I'm not engineering, you'll likely find me playing video games, listening to music, watching movies, or contemplating about space and cars
+                                Below you can find what I've been up to recently!
                             </p>
                         </div>
                     </section>
