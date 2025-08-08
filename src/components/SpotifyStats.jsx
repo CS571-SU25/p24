@@ -8,8 +8,8 @@ const SpotifyStats = () => {
   useEffect(() => {
     const loadSpotifyData = async () => {
       try {
-        // Fetch JSON data from public directory
-        const response = await fetch('/spotify-data.json');
+        // Fetch JSON data from public directory (with base path)
+        const response = await fetch('/p24/spotify-data.json');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
