@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/2j3vVnYP5uCWpeGYXqXrUu"
     },
     {
-      "name": "The Wind Song",
-      "artist": "Gigi Masin",
-      "album": "Wind",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e0b20f56f29016222e1ed2a8",
-      "external_url": "https://open.spotify.com/track/37wDs1QxOgwWV2pDUO7YQy"
-    },
-    {
       "name": "MANNEQUIN",
       "artist": "Che",
       "album": "REST IN BASS",
       "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
       "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
+    },
+    {
+      "name": "The Birds Don't Sing",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
+      "external_url": "https://open.spotify.com/track/6L3i4jdNnk0a9kMT3qIqTG"
     }
   ],
   "topArtists": [
@@ -148,27 +148,25 @@
       ]
     },
     {
+      "name": "Boards of Canada",
+      "image": "https://i.scdn.co/image/c533bf6f08a42119065d8c2171cdfa8e96720b4c",
+      "external_url": "https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1",
+      "genres": [
+        "idm",
+        "ambient",
+        "trip hop",
+        "downtempo",
+        "electronic"
+      ]
+    },
+    {
       "name": "Slow Attack Ensemble",
       "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
       "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
       "genres": [
         "ambient"
       ]
-    },
-    {
-      "name": "Brian Eno",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb5533ce5711f95f0c436b30fe",
-      "external_url": "https://open.spotify.com/artist/7MSUfLeTdDEoZiJPDSBXgi",
-      "genres": [
-        "ambient",
-        "krautrock",
-        "art rock",
-        "minimalism",
-        "drone",
-        "glam rock",
-        "space music"
-      ]
     }
   ],
-  "lastUpdated": "2025-08-07T06:19:04.184Z"
+  "lastUpdated": "2025-08-08T06:19:03.167Z"
 }
