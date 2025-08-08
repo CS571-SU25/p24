@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import spotifyDataJson from '../../public/spotify-data.json';
 
 const SpotifyStats = () => {
   const [spotifyData, setSpotifyData] = useState(null);
@@ -7,10 +6,15 @@ const SpotifyStats = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const loadSpotifyData = () => {
+    const loadSpotifyData = async () => {
       try {
-        // Use imported JSON data directly
-        setSpotifyData(spotifyDataJson);
+        // Fetch JSON data from public directory
+        const response = await fetch('/spotify-data.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setSpotifyData(data);
         setLoading(false);
       } catch (err) {
         console.error('Error loading Spotify data:', err);
