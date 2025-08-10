@@ -8,13 +8,6 @@
       "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
-      "name": "E.B.I.T.D.A.",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
-    },
-    {
       "name": "INFINITUDE // UROBOROS",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
@@ -27,6 +20,13 @@
       "album": "Betrayed in the Octagon",
       "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
+    },
+    {
+      "name": "E.B.I.T.D.A.",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
+      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
     },
     {
       "name": "Rolled1",
@@ -64,11 +64,11 @@
       "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
     },
     {
-      "name": "The Wind Song",
-      "artist": "Gigi Masin",
-      "album": "Wind",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e0b20f56f29016222e1ed2a8",
-      "external_url": "https://open.spotify.com/track/37wDs1QxOgwWV2pDUO7YQy"
+      "name": "The Fantastic Four: First Steps Main Theme Extended Version",
+      "artist": "Michael Giacchino",
+      "album": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e986fcce07dc6b104cf3793c",
+      "external_url": "https://open.spotify.com/track/7h1r6c5C8HZpDmmCodIIW4"
     }
   ],
   "topArtists": [
@@ -120,14 +120,6 @@
       ]
     },
     {
-      "name": "Clipse",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
-      "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
-      "genres": [
-        "southern hip hop"
-      ]
-    },
-    {
       "name": "Oneohtrix Point Never",
       "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
       "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
@@ -161,12 +153,20 @@
     },
     {
       "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb69e505907c93860a58389e21",
       "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
       "genres": [
         "ambient"
       ]
+    },
+    {
+      "name": "Clipse",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
+      "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
+      "genres": [
+        "southern hip hop"
+      ]
     }
   ],
-  "lastUpdated": "2025-08-09T06:15:31.590Z"
+  "lastUpdated": "2025-08-10T06:15:45.337Z"
 }
