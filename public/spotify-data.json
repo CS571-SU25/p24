@@ -36,13 +36,6 @@
       "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
-      "name": "CHAMPAIN & VACAY",
-      "artist": "Travis Scott",
-      "album": "CHAMPAIN & VACAY",
-      "image": "https://i.scdn.co/image/ab67616d0000b273124869b6f7df071e3c77d646",
-      "external_url": "https://open.spotify.com/track/1097cG16gzkhlPgkUt6KA0"
-    },
-    {
       "name": "MARCELINE",
       "artist": "Che",
       "album": "REST IN BASS",
@@ -50,11 +43,11 @@
       "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
     },
     {
-      "name": "CONTEST",
+      "name": "CHAMPAIN & VACAY",
       "artist": "Travis Scott",
-      "album": "JACKBOYS 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b273658dd69528221574b829589a",
-      "external_url": "https://open.spotify.com/track/2j3vVnYP5uCWpeGYXqXrUu"
+      "album": "CHAMPAIN & VACAY",
+      "image": "https://i.scdn.co/image/ab67616d0000b273124869b6f7df071e3c77d646",
+      "external_url": "https://open.spotify.com/track/1097cG16gzkhlPgkUt6KA0"
     },
     {
       "name": "MANNEQUIN",
@@ -69,6 +62,13 @@
       "album": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
       "image": "https://i.scdn.co/image/ab67616d0000b273e986fcce07dc6b104cf3793c",
       "external_url": "https://open.spotify.com/track/7h1r6c5C8HZpDmmCodIIW4"
+    },
+    {
+      "name": "Ultraviolet",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
     }
   ],
   "topArtists": [
@@ -152,21 +152,27 @@
       ]
     },
     {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
-      "genres": [
-        "ambient"
-      ]
-    },
-    {
       "name": "Clipse",
       "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
       "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
       "genres": [
         "southern hip hop"
       ]
+    },
+    {
+      "name": "Brian Eno",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5533ce5711f95f0c436b30fe",
+      "external_url": "https://open.spotify.com/artist/7MSUfLeTdDEoZiJPDSBXgi",
+      "genres": [
+        "ambient",
+        "krautrock",
+        "art rock",
+        "minimalism",
+        "drone",
+        "glam rock",
+        "space music"
+      ]
     }
   ],
-  "lastUpdated": "2025-08-11T06:18:55.833Z"
+  "lastUpdated": "2025-08-12T06:17:36.712Z"
 }
