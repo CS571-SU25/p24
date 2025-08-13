@@ -22,13 +22,6 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
-      "name": "E.B.I.T.D.A.",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
-    },
-    {
       "name": "Rolled1",
       "artist": "prettifun",
       "album": "FunHouse",
@@ -43,11 +36,18 @@
       "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
     },
     {
-      "name": "CHAMPAIN & VACAY",
-      "artist": "Travis Scott",
-      "album": "CHAMPAIN & VACAY",
-      "image": "https://i.scdn.co/image/ab67616d0000b273124869b6f7df071e3c77d646",
-      "external_url": "https://open.spotify.com/track/1097cG16gzkhlPgkUt6KA0"
+      "name": "E.B.I.T.D.A.",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
+      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
+    },
+    {
+      "name": "GLUTGIRL66",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
       "name": "MANNEQUIN",
@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
     },
     {
+      "name": "WEEP TODAY",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+    },
+    {
       "name": "The Fantastic Four: First Steps Main Theme Extended Version",
       "artist": "Michael Giacchino",
       "album": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
       "image": "https://i.scdn.co/image/ab67616d0000b273e986fcce07dc6b104cf3793c",
       "external_url": "https://open.spotify.com/track/7h1r6c5C8HZpDmmCodIIW4"
-    },
-    {
-      "name": "Ultraviolet",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
     }
   ],
   "topArtists": [
@@ -87,14 +87,6 @@
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
         "underground hip hop"
-      ]
-    },
-    {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
-      "genres": [
-        "rap"
       ]
     },
     {
@@ -117,6 +109,14 @@
         "idm",
         "experimental",
         "minimalism"
+      ]
+    },
+    {
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "genres": [
+        "rap"
       ]
     },
     {
@@ -174,5 +174,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-12T06:17:36.712Z"
+  "lastUpdated": "2025-08-13T06:17:08.437Z"
 }
