@@ -36,18 +36,18 @@
       "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
     },
     {
-      "name": "E.B.I.T.D.A.",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
-    },
-    {
       "name": "GLUTGIRL66",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
+    },
+    {
+      "name": "E.B.I.T.D.A.",
+      "artist": "Clipse",
+      "album": "Let God Sort Em Out",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
+      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
     },
     {
       "name": "MANNEQUIN",
@@ -140,18 +140,6 @@
       ]
     },
     {
-      "name": "Boards of Canada",
-      "image": "https://i.scdn.co/image/c533bf6f08a42119065d8c2171cdfa8e96720b4c",
-      "external_url": "https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1",
-      "genres": [
-        "idm",
-        "ambient",
-        "trip hop",
-        "downtempo",
-        "electronic"
-      ]
-    },
-    {
       "name": "Clipse",
       "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
       "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
@@ -172,7 +160,15 @@
         "glam rock",
         "space music"
       ]
+    },
+    {
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "genres": [
+        "ambient"
+      ]
     }
   ],
-  "lastUpdated": "2025-08-13T06:17:08.437Z"
+  "lastUpdated": "2025-08-14T06:17:21.396Z"
 }
