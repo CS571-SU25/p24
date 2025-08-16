@@ -43,18 +43,18 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
-      "name": "E.B.I.T.D.A.",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
-    },
-    {
       "name": "MANNEQUIN",
       "artist": "Che",
       "album": "REST IN BASS",
       "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
       "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
+    },
+    {
+      "name": "G6 Anthem",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
     },
     {
       "name": "WEEP TODAY",
@@ -83,7 +83,7 @@
     },
     {
       "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebedf96dbcd68173d8de96e96d",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
         "underground hip hop"
@@ -112,19 +112,19 @@
       ]
     },
     {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
-      "genres": [
-        "rap"
-      ]
-    },
-    {
       "name": "Michael Giacchino",
       "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
       "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
       "genres": [
         "soundtrack"
+      ]
+    },
+    {
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "genres": [
+        "rap"
       ]
     },
     {
@@ -170,5 +170,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-15T06:17:06.555Z"
+  "lastUpdated": "2025-08-16T06:15:29.834Z"
 }
