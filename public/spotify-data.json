@@ -22,13 +22,6 @@
       "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
-      "name": "MARCELINE",
-      "artist": "Che",
-      "album": "REST IN BASS",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
-      "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
-    },
-    {
       "name": "GLUTGIRL66",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
@@ -36,18 +29,18 @@
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
+      "name": "MARCELINE",
+      "artist": "Che",
+      "album": "REST IN BASS",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
+      "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
+    },
+    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
       "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
-    },
-    {
-      "name": "MANNEQUIN",
-      "artist": "Che",
-      "album": "REST IN BASS",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
-      "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
     },
     {
       "name": "G6 Anthem",
@@ -69,6 +62,13 @@
       "album": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
       "image": "https://i.scdn.co/image/ab67616d0000b273e986fcce07dc6b104cf3793c",
       "external_url": "https://open.spotify.com/track/7h1r6c5C8HZpDmmCodIIW4"
+    },
+    {
+      "name": "Ultraviolet",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
     }
   ],
   "topArtists": [
@@ -83,7 +83,7 @@
     },
     {
       "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebedf96dbcd68173d8de96e96d",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
         "underground hip hop"
@@ -170,5 +170,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-16T06:15:29.834Z"
+  "lastUpdated": "2025-08-17T06:15:21.899Z"
 }
