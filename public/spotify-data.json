@@ -90,6 +90,21 @@
       ]
     },
     {
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
+      ]
+    },
+    {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
       "name": "Tim Hecker",
       "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
       "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
@@ -100,15 +115,6 @@
         "idm",
         "experimental",
         "minimalism"
-      ]
-    },
-    {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
-      "genres": [
-        "rage rap",
-        "underground hip hop"
       ]
     },
     {
@@ -154,15 +160,7 @@
       "genres": [
         "rage rap"
       ]
-    },
-    {
-      "name": "Clipse",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
-      "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
-      "genres": [
-        "southern hip hop"
-      ]
     }
   ],
-  "lastUpdated": "2025-08-21T06:24:53.660Z"
+  "lastUpdated": "2025-08-22T06:16:23.540Z"
 }
