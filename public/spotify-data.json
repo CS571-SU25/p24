@@ -118,19 +118,19 @@
       ]
     },
     {
-      "name": "Michael Giacchino",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
-      "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
-      "genres": [
-        "soundtrack"
-      ]
-    },
-    {
       "name": "Travis Scott",
       "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
       "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
         "rap"
+      ]
+    },
+    {
+      "name": "Michael Giacchino",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
+      "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
+      "genres": [
+        "soundtrack"
       ]
     },
     {
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-22T06:16:23.540Z"
+  "lastUpdated": "2025-08-23T06:14:07.106Z"
 }
