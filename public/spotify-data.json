@@ -1,18 +1,18 @@
 {
   "topTracks": [
     {
-      "name": "Idk Wtf",
-      "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
-    },
-    {
       "name": "INFINITUDE // UROBOROS",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+    },
+    {
+      "name": "Idk Wtf",
+      "artist": "prettifun",
+      "album": "FunHouse Deluxe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
+      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
       "name": "GLUTGIRL66",
@@ -90,6 +90,12 @@
       ]
     },
     {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
       "name": "Che",
       "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
       "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
@@ -97,12 +103,6 @@
         "rage rap",
         "underground hip hop"
       ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
     },
     {
       "name": "Tim Hecker",
@@ -126,19 +126,19 @@
       ]
     },
     {
-      "name": "Michael Giacchino",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
-      "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
-      "genres": [
-        "soundtrack"
-      ]
-    },
-    {
       "name": "Jane Remover",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6ed53a695796f4c9b8ef81d3",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
         "hyperpop"
+      ]
+    },
+    {
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "genres": [
+        "ambient"
       ]
     },
     {
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-23T06:14:07.106Z"
+  "lastUpdated": "2025-08-24T06:14:59.692Z"
 }
