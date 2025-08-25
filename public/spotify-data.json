@@ -36,18 +36,18 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
-      "name": "Ultraviolet",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
-    },
-    {
       "name": "WEEP TODAY",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+    },
+    {
+      "name": "Ultraviolet",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
     },
     {
       "name": "Smackdown",
@@ -96,15 +96,6 @@
       "genres": []
     },
     {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
-      "genres": [
-        "rage rap",
-        "underground hip hop"
-      ]
-    },
-    {
       "name": "Tim Hecker",
       "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
       "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
@@ -123,6 +114,15 @@
       "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
         "rap"
+      ]
+    },
+    {
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
       ]
     },
     {
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-24T06:14:59.692Z"
+  "lastUpdated": "2025-08-25T06:17:42.343Z"
 }
