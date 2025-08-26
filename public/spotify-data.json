@@ -8,18 +8,18 @@
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
-      "name": "Idk Wtf",
-      "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
-    },
-    {
       "name": "GLUTGIRL66",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
+    },
+    {
+      "name": "Idk Wtf",
+      "artist": "prettifun",
+      "album": "FunHouse Deluxe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
+      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
       "name": "Rolled1",
@@ -43,11 +43,11 @@
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
     },
     {
-      "name": "Ultraviolet",
+      "name": "G6 Anthem",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
       "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
+      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
     },
     {
       "name": "Smackdown",
@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/7kAi27hSQ7AC2Rxcg8a8Ns"
     },
     {
-      "name": "SORORITY",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/5S5iSPQ8gkI3Y2pfkp4YlQ"
+      "name": "motives",
+      "artist": "deathtoricky",
+      "album": "relaxation zen room",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
+      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
     },
     {
-      "name": "G6 Anthem",
+      "name": "2010 Justin Bieber",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
       "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
+      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     }
   ],
   "topArtists": [
@@ -96,33 +96,11 @@
       "genres": []
     },
     {
-      "name": "Tim Hecker",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
-      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
-      "genres": [
-        "drone",
-        "ambient",
-        "dark ambient",
-        "idm",
-        "experimental",
-        "minimalism"
-      ]
-    },
-    {
       "name": "Travis Scott",
       "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
       "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
         "rap"
-      ]
-    },
-    {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
-      "genres": [
-        "rage rap",
-        "underground hip hop"
       ]
     },
     {
@@ -134,11 +112,12 @@
       ]
     },
     {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
       "genres": [
-        "ambient"
+        "rage rap",
+        "underground hip hop"
       ]
     },
     {
@@ -160,7 +139,28 @@
       "genres": [
         "rage rap"
       ]
+    },
+    {
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "genres": [
+        "ambient"
+      ]
+    },
+    {
+      "name": "Tim Hecker",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
+      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
+      "genres": [
+        "drone",
+        "ambient",
+        "dark ambient",
+        "idm",
+        "experimental",
+        "minimalism"
+      ]
     }
   ],
-  "lastUpdated": "2025-08-25T06:17:42.343Z"
+  "lastUpdated": "2025-08-26T06:16:42.234Z"
 }
