@@ -29,18 +29,18 @@
       "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
-      "name": "Behind the Bank",
-      "artist": "Oneohtrix Point Never",
-      "album": "Betrayed in the Octagon",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
-      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
-    },
-    {
       "name": "WEEP TODAY",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+    },
+    {
+      "name": "Behind the Bank",
+      "artist": "Oneohtrix Point Never",
+      "album": "Betrayed in the Octagon",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
+      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
       "name": "G6 Anthem",
@@ -74,7 +74,7 @@
   "topArtists": [
     {
       "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb866ff776599d162f47b5b2ed",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb37de764d44dbf1750ff26e17",
       "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
       "genres": [
         "hyperpop",
@@ -129,18 +129,6 @@
       ]
     },
     {
-      "name": "Oneohtrix Point Never",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
-      "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
-      "genres": [
-        "idm",
-        "drone",
-        "ambient",
-        "experimental",
-        "vaporwave"
-      ]
-    },
-    {
       "name": "Tim Hecker",
       "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
       "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
@@ -154,13 +142,29 @@
       ]
     },
     {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "name": "Boards of Canada",
+      "image": "https://i.scdn.co/image/c533bf6f08a42119065d8c2171cdfa8e96720b4c",
+      "external_url": "https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1",
       "genres": [
-        "ambient"
+        "idm",
+        "ambient",
+        "trip hop",
+        "downtempo",
+        "electronic"
+      ]
+    },
+    {
+      "name": "Oneohtrix Point Never",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
+      "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
+      "genres": [
+        "idm",
+        "drone",
+        "ambient",
+        "experimental",
+        "vaporwave"
       ]
     }
   ],
-  "lastUpdated": "2025-08-27T06:15:52.397Z"
+  "lastUpdated": "2025-08-28T06:16:23.905Z"
 }
