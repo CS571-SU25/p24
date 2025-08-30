@@ -22,13 +22,6 @@
       "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
-      "name": "Idk Wtf",
-      "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
-    },
-    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
@@ -69,6 +62,13 @@
       "album": "Unmusique",
       "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
       "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
+    },
+    {
+      "name": "Smackdown",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/7kAi27hSQ7AC2Rxcg8a8Ns"
     }
   ],
   "topArtists": [
@@ -120,19 +120,19 @@
       ]
     },
     {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
-      "genres": [
-        "rap"
-      ]
-    },
-    {
       "name": "Jane Remover",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6ed53a695796f4c9b8ef81d3",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
         "hyperpop"
+      ]
+    },
+    {
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "genres": [
+        "rap"
       ]
     },
     {
@@ -158,5 +158,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-29T06:16:02.343Z"
+  "lastUpdated": "2025-08-30T06:13:31.066Z"
 }
