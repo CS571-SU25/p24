@@ -8,18 +8,18 @@
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
-      "name": "Rolled1",
-      "artist": "prettifun",
-      "album": "FunHouse",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
-      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
-    },
-    {
       "name": "GLUTGIRL66",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
+    },
+    {
+      "name": "Rolled1",
+      "artist": "prettifun",
+      "album": "FunHouse",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
+      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
       "name": "Behind the Bank",
@@ -50,6 +50,13 @@
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
     },
     {
+      "name": "Rita",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
+    },
+    {
       "name": "2010 Justin Bieber",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
@@ -57,18 +64,11 @@
       "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     },
     {
-      "name": "Ultraviolet",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/104jLL4MVRqvqFJHbAx8vZ"
-    },
-    {
-      "name": "Smackdown",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/7kAi27hSQ7AC2Rxcg8a8Ns"
+      "name": "Idk Wtf",
+      "artist": "prettifun",
+      "album": "FunHouse Deluxe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
+      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     }
   ],
   "topArtists": [
@@ -104,6 +104,14 @@
       ]
     },
     {
+      "name": "Jane Remover",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb06672a441a380e9bff173550",
+      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
+      "genres": [
+        "hyperpop"
+      ]
+    },
+    {
       "name": "Ken Carson",
       "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
       "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
@@ -117,14 +125,6 @@
       "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
       "genres": [
         "rage rap"
-      ]
-    },
-    {
-      "name": "Jane Remover",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb06672a441a380e9bff173550",
-      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
-      "genres": [
-        "hyperpop"
       ]
     },
     {
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-31T06:14:17.615Z"
+  "lastUpdated": "2025-09-01T06:17:56.617Z"
 }
