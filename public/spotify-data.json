@@ -29,6 +29,13 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
+      "name": "WEEP TODAY",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+    },
+    {
       "name": "G6 Anthem",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
@@ -43,11 +50,11 @@
       "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
     },
     {
-      "name": "WEEP TODAY",
+      "name": "2010 Justin Bieber",
       "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     },
     {
       "name": "Rita",
@@ -55,13 +62,6 @@
       "album": "Pretti",
       "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
-    },
-    {
-      "name": "2010 Justin Bieber",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     },
     {
       "name": "Idk Wtf",
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-01T06:17:56.617Z"
+  "lastUpdated": "2025-09-02T06:16:52.814Z"
 }
