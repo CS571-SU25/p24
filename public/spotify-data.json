@@ -15,18 +15,18 @@
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
-      "name": "Rolled1",
-      "artist": "prettifun",
-      "album": "FunHouse",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
-      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
-    },
-    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
       "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
+    },
+    {
+      "name": "Rolled1",
+      "artist": "prettifun",
+      "album": "FunHouse",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
+      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
       "name": "WEEP TODAY",
@@ -36,13 +36,6 @@
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
     },
     {
-      "name": "G6 Anthem",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
-    },
-    {
       "name": "motives",
       "artist": "deathtoricky",
       "album": "relaxation zen room",
@@ -50,11 +43,11 @@
       "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
     },
     {
-      "name": "2010 Justin Bieber",
+      "name": "G6 Anthem",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
       "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
+      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
     },
     {
       "name": "Rita",
@@ -64,11 +57,18 @@
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
-      "name": "Idk Wtf",
+      "name": "2010 Justin Bieber",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
+    },
+    {
+      "name": "Light",
       "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/4MARgoyXPn4qNw9qUN6yIr"
     }
   ],
   "topArtists": [
@@ -162,5 +162,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-02T06:16:52.814Z"
+  "lastUpdated": "2025-09-03T06:15:11.836Z"
 }
