@@ -9,7 +9,10 @@ const SpotifyStats = () => {
     const loadSpotifyData = async () => {
       try {
         // Fetch JSON data from public directory (with base path)
-        const response = await fetch('/p24/spotify-data.json');
+        const base = import.meta.env.BASE_URL || '/';
+        const url = `${base}/spotify-data.json?ts=${Date.now()}`;
+        console.log(url);
+        const response = await fetch(url, { cache: 'no-store' });
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

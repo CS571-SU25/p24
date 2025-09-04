@@ -1,25 +1,18 @@
 {
   "topTracks": [
     {
-      "name": "E.B.I.T.D.A.",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/3J4lO2oyDMLEYGdHgRcJHW"
-    },
-    {
-      "name": "Idk Wtf",
-      "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
-    },
-    {
       "name": "INFINITUDE // UROBOROS",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
       "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+    },
+    {
+      "name": "GLUTGIRL66",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
       "name": "Behind the Bank",
@@ -29,6 +22,20 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
+      "name": "motives",
+      "artist": "deathtoricky",
+      "album": "relaxation zen room",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
+      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+    },
+    {
+      "name": "WEEP TODAY",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
+    },
+    {
       "name": "Rolled1",
       "artist": "prettifun",
       "album": "FunHouse",
@@ -36,45 +43,38 @@
       "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     },
     {
-      "name": "CHAMPAIN & VACAY",
-      "artist": "Travis Scott",
-      "album": "CHAMPAIN & VACAY",
-      "image": "https://i.scdn.co/image/ab67616d0000b273124869b6f7df071e3c77d646",
-      "external_url": "https://open.spotify.com/track/1097cG16gzkhlPgkUt6KA0"
+      "name": "Rita",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
-      "name": "MARCELINE",
-      "artist": "Che",
-      "album": "REST IN BASS",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
-      "external_url": "https://open.spotify.com/track/4RCTxZghWO0p1G87rK7SRQ"
+      "name": "G6 Anthem",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
     },
     {
-      "name": "CONTEST",
-      "artist": "Travis Scott",
-      "album": "JACKBOYS 2",
-      "image": "https://i.scdn.co/image/ab67616d0000b273658dd69528221574b829589a",
-      "external_url": "https://open.spotify.com/track/2j3vVnYP5uCWpeGYXqXrUu"
+      "name": "2010 Justin Bieber",
+      "artist": "Lucy Bedroque",
+      "album": "Unmusique",
+      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
+      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     },
     {
-      "name": "MANNEQUIN",
-      "artist": "Che",
-      "album": "REST IN BASS",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737930341e245fc8d02b54dab0",
-      "external_url": "https://open.spotify.com/track/4BOZwlrJLGTPmePx9mM9pu"
-    },
-    {
-      "name": "The Birds Don't Sing",
-      "artist": "Clipse",
-      "album": "Let God Sort Em Out",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
-      "external_url": "https://open.spotify.com/track/6L3i4jdNnk0a9kMT3qIqTG"
+      "name": "Cel Damage",
+      "artist": "KULAPHANTASY",
+      "album": "KULAWARE",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
+      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
     }
   ],
   "topArtists": [
     {
       "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7436a7275d9656896163efa3",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb37de764d44dbf1750ff26e17",
       "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
       "genres": [
         "hyperpop",
@@ -83,27 +83,49 @@
     },
     {
       "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2182a496c01945e909ffa946",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc775bbd15f1f1edf52359c53",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
-        "underground hip hop"
+        "underground hip hop",
+        "rage rap"
       ]
     },
     {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
       "genres": [
-        "rap"
+        "rage rap"
       ]
     },
     {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
+      "name": "Jane Remover",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb06672a441a380e9bff173550",
+      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
-        "rage rap",
-        "underground hip hop"
+        "hyperpop"
+      ]
+    },
+    {
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
+      "name": "Destroy Lonely",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb381595af4349d9b79184f7c2",
+      "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
+      "genres": [
+        "rage rap"
       ]
     },
     {
@@ -120,22 +142,6 @@
       ]
     },
     {
-      "name": "Clipse",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7d6973a4df776665c9852f26",
-      "external_url": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
-      "genres": [
-        "southern hip hop"
-      ]
-    },
-    {
-      "name": "Michael Giacchino",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb9945209ac13720afd7eea2e3",
-      "external_url": "https://open.spotify.com/artist/4kLvhMAuCloLxoP1aVM7Lr",
-      "genres": [
-        "soundtrack"
-      ]
-    },
-    {
       "name": "Oneohtrix Point Never",
       "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
       "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
@@ -148,25 +154,14 @@
       ]
     },
     {
-      "name": "Boards of Canada",
-      "image": "https://i.scdn.co/image/c533bf6f08a42119065d8c2171cdfa8e96720b4c",
-      "external_url": "https://open.spotify.com/artist/2VAvhf61GgLYmC6C8anyX1",
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
       "genres": [
-        "idm",
-        "ambient",
-        "trip hop",
-        "downtempo",
-        "electronic"
-      ]
-    },
-    {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
-      "genres": [
-        "ambient"
+        "rage rap",
+        "underground hip hop"
       ]
     }
   ],
-  "lastUpdated": "2025-08-08T06:19:03.167Z"
+  "lastUpdated": "2025-09-04T06:15:29.948Z"
 }

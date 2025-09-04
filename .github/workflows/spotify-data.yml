@@ -35,11 +35,16 @@ jobs:
         SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
       run: |
         node scripts/fetch-spotify-data.js
+
+    - name: Publish JSON to docs
+      run: |
+        mkdir -p docs
+        cp public/spotify-data.json docs/spotify-data.json
         
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add public/spotify-data.json
+        git add public/spotify-data.json docs/spotify-data.json
         git diff --staged --quiet || git commit -m "Update Spotify Data"
         git push
