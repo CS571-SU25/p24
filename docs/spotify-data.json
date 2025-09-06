@@ -142,6 +142,15 @@
       ]
     },
     {
+      "name": "Che",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
+      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
+      ]
+    },
+    {
       "name": "Oneohtrix Point Never",
       "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
       "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
@@ -152,16 +161,7 @@
         "experimental",
         "vaporwave"
       ]
-    },
-    {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
-      "genres": [
-        "rage rap",
-        "underground hip hop"
-      ]
     }
   ],
-  "lastUpdated": "2025-09-05T06:15:51.591Z"
+  "lastUpdated": "2025-09-06T06:13:41.049Z"
 }
