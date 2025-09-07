@@ -43,13 +43,6 @@
       "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
     },
     {
-      "name": "G6 Anthem",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/0rq8Vr1Rwjgf97tAcT9EkN"
-    },
-    {
       "name": "Rolled1",
       "artist": "prettifun",
       "album": "FunHouse",
@@ -69,6 +62,13 @@
       "album": "KULAWARE",
       "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
       "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+    },
+    {
+      "name": "Touch The Sun",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/2NFoCl74eoz18HVdl2pJSq"
     }
   ],
   "topArtists": [
@@ -151,17 +151,13 @@
       ]
     },
     {
-      "name": "Oneohtrix Point Never",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebf15e61d103deb9077b2c9ed8",
-      "external_url": "https://open.spotify.com/artist/2wPDbhaGXCqROrVmwDdCrK",
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
-        "idm",
-        "drone",
-        "ambient",
-        "experimental",
-        "vaporwave"
+        "rap"
       ]
     }
   ],
-  "lastUpdated": "2025-09-06T06:13:41.049Z"
+  "lastUpdated": "2025-09-07T06:13:44.540Z"
 }
