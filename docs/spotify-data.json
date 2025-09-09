@@ -15,18 +15,18 @@
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
-      "name": "Behind the Bank",
-      "artist": "Oneohtrix Point Never",
-      "album": "Betrayed in the Octagon",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
-      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
-    },
-    {
       "name": "Rita",
       "artist": "prettifun",
       "album": "Pretti",
       "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
+    },
+    {
+      "name": "Behind the Bank",
+      "artist": "Oneohtrix Point Never",
+      "album": "Betrayed in the Octagon",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
+      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
       "name": "motives",
@@ -36,18 +36,25 @@
       "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
     },
     {
-      "name": "WEEP TODAY",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
-    },
-    {
       "name": "high enough",
       "artist": "deathtoricky",
       "album": "spring cleaning",
       "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
       "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
+    },
+    {
+      "name": "Light",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/4MARgoyXPn4qNw9qUN6yIr"
+    },
+    {
+      "name": "WEEP TODAY",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
     },
     {
       "name": "2010 Justin Bieber",
@@ -62,13 +69,6 @@
       "album": "KULAWARE",
       "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
       "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
-    },
-    {
-      "name": "Light",
-      "artist": "prettifun",
-      "album": "Pretti",
-      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
-      "external_url": "https://open.spotify.com/track/4MARgoyXPn4qNw9qUN6yIr"
     }
   ],
   "topArtists": [
@@ -113,17 +113,17 @@
       ]
     },
     {
-      "name": "Ken Carson",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
-      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "name": "Destroy Lonely",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb381595af4349d9b79184f7c2",
+      "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
       "genres": [
         "rage rap"
       ]
     },
     {
-      "name": "Destroy Lonely",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb381595af4349d9b79184f7c2",
-      "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
         "rage rap"
       ]
@@ -159,5 +159,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-08T06:17:12.454Z"
+  "lastUpdated": "2025-09-09T06:16:21.127Z"
 }
