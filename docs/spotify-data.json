@@ -15,13 +15,6 @@
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
-      "name": "Rita",
-      "artist": "prettifun",
-      "album": "Pretti",
-      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
-      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
-    },
-    {
       "name": "Behind the Bank",
       "artist": "Oneohtrix Point Never",
       "album": "Betrayed in the Octagon",
@@ -29,11 +22,25 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
+      "name": "Rita",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
+    },
+    {
       "name": "motives",
       "artist": "deathtoricky",
       "album": "relaxation zen room",
       "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
       "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+    },
+    {
+      "name": "Cel Damage",
+      "artist": "KULAPHANTASY",
+      "album": "KULAWARE",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
+      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
     },
     {
       "name": "high enough",
@@ -50,13 +57,6 @@
       "external_url": "https://open.spotify.com/track/4MARgoyXPn4qNw9qUN6yIr"
     },
     {
-      "name": "WEEP TODAY",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6ZqeVIc9OR926dtwVrSPYz"
-    },
-    {
       "name": "2010 Justin Bieber",
       "artist": "Lucy Bedroque",
       "album": "Unmusique",
@@ -64,11 +64,11 @@
       "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
     },
     {
-      "name": "Cel Damage",
-      "artist": "KULAPHANTASY",
-      "album": "KULAWARE",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
-      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+      "name": "Somewhere going home",
+      "artist": "kuru",
+      "album": "Stay true forever",
+      "image": "https://i.scdn.co/image/ab67616d0000b27396918036ed875f148a09112c",
+      "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
     }
   ],
   "topArtists": [
@@ -106,7 +106,7 @@
     },
     {
       "name": "Jane Remover",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb06672a441a380e9bff173550",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
         "hyperpop"
@@ -142,22 +142,23 @@
       ]
     },
     {
-      "name": "Che",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebefc665aaf840aff546d743c2",
-      "external_url": "https://open.spotify.com/artist/5A7T1LAGJg5NXySBoIKUmF",
-      "genres": [
-        "rage rap",
-        "underground hip hop"
-      ]
-    },
-    {
       "name": "Travis Scott",
       "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
       "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
         "rap"
       ]
+    },
+    {
+      "name": "kuru",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcaa57ca5c67210b0daede1ab",
+      "external_url": "https://open.spotify.com/artist/1KJ5ZZBncdHtz60i3fiQYu",
+      "genres": [
+        "hyperpop",
+        "glitch",
+        "cloud rap"
+      ]
     }
   ],
-  "lastUpdated": "2025-09-09T06:16:21.127Z"
+  "lastUpdated": "2025-09-10T06:16:05.445Z"
 }
