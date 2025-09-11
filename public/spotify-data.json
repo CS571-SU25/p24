@@ -15,13 +15,6 @@
       "external_url": "https://open.spotify.com/track/23Xfo9Y7M7sKQRQqYeuM1s"
     },
     {
-      "name": "Behind the Bank",
-      "artist": "Oneohtrix Point Never",
-      "album": "Betrayed in the Octagon",
-      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
-      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
-    },
-    {
       "name": "Rita",
       "artist": "prettifun",
       "album": "Pretti",
@@ -34,6 +27,20 @@
       "album": "relaxation zen room",
       "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
       "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+    },
+    {
+      "name": "Behind the Bank",
+      "artist": "Oneohtrix Point Never",
+      "album": "Betrayed in the Octagon",
+      "image": "https://i.scdn.co/image/ab67616d0000b27347a6ec6ebf30595ab878d1e1",
+      "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
+    },
+    {
+      "name": "Somewhere going home",
+      "artist": "kuru",
+      "album": "Stay true forever",
+      "image": "https://i.scdn.co/image/ab67616d0000b27396918036ed875f148a09112c",
+      "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
     },
     {
       "name": "Cel Damage",
@@ -57,18 +64,11 @@
       "external_url": "https://open.spotify.com/track/4MARgoyXPn4qNw9qUN6yIr"
     },
     {
-      "name": "2010 Justin Bieber",
-      "artist": "Lucy Bedroque",
-      "album": "Unmusique",
-      "image": "https://i.scdn.co/image/ab67616d0000b27335c2d75dff53d549933ca10b",
-      "external_url": "https://open.spotify.com/track/5WIGbrfNMvFeCQOx5XykBO"
-    },
-    {
-      "name": "Somewhere going home",
-      "artist": "kuru",
-      "album": "Stay true forever",
-      "image": "https://i.scdn.co/image/ab67616d0000b27396918036ed875f148a09112c",
-      "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
+      "name": "Rolled1",
+      "artist": "prettifun",
+      "album": "FunHouse",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
+      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
     }
   ],
   "topArtists": [
@@ -160,5 +160,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-10T06:16:05.445Z"
+  "lastUpdated": "2025-09-11T06:16:28.651Z"
 }
