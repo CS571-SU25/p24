@@ -5,14 +5,6 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Toodaloo Mobile App",
-      description: ["Find public bathrooms with geolocation, reviews, and accessibility filters", "60,000+ locations with AI-powered summaries"],
-      technologies: ["React Native", "Firebase", "JavaScript", "RapidAPI", "Google Gemini API", "Geolocation Services"],
-      status: "In Development",
-      link: "https://github.com/Mahir-2003/toodaloo-app"
-    },
-    {
-      id: 2,
       name: "Turismo Telemetry",
       description: ["Real-time racing telemetry visualization dashboard for Gran Turismo 7", "Live telemetry streaming, 60fps data visualization, and sub-100ms latency"],
       technologies: ["TypeScript", "React", "TailwindCSS", "Python", "FastAPI", "WebSocket", "Pydantic", "Recharts", "Salsa20"],
@@ -21,7 +13,23 @@ const Projects = () => {
 
     },
     {
+      id: 2,
+      name: "Personal Portfolio",
+      description: ["The website you're on :)"],
+      technologies: ["React", "Three.js", "TailwindCSS", "Vite", "React Router", "Spotify API", "RSS Parsing", "JavaScript"],
+      status: "In Development",
+      link: "https://github.com/CS571-SU25/p24"
+    },
+    {
       id: 3,
+      name: "Toodaloo Mobile App",
+      description: ["Find public bathrooms with geolocation, reviews, and accessibility filters", "60,000+ locations with AI-powered summaries"],
+      technologies: ["React Native", "Firebase", "JavaScript", "RapidAPI", "Google Gemini API", "Geolocation Services"],
+      status: "Completed",
+      link: "https://github.com/Mahir-2003/toodaloo-app"
+    },
+    {
+      id: 4,
       name: "Mortgage Master",
       description: ["3rd place Badger Blockchain hackathon winner", "Smart contract loan platform with MetaMask integration and secure disbursement"],
       technologies: ["React", "Solidity", "HTML/CSS", "Hardhat", "MetaMask", "Web3"],
@@ -29,7 +37,7 @@ const Projects = () => {
       link: "https://github.com/dgopinath3693/Mortgage-Master"
     },
     {
-      id: 4,
+      id: 5,
       name: "Nyla - Parental Education App",
       description: ["Duolingo-style parenting education with interactive modules", "Community forum for parent discussions and advice sharing"],
       technologies: ["React Native", "Firebase", "JavaScript", "Google Cloud"],
@@ -37,21 +45,13 @@ const Projects = () => {
       link: "https://github.com/Mahir-2003/nyla-frontend"
     },
     {
-      id: 5,
+      id: 6,
       name: "CS 220 Queue Monitor",
       description: ["Automated help queue monitoring for CS 220", "Google Sheets integration with macOS notifications"],
       technologies: ["Python", "Google Sheets API", "MacOS Notifications", "Google Cloud Platform"],
       status: "Completed",
       link: "https://github.com/Mahir-2003/cs220-queue-monitor",
     },
-    {
-      id: 6,
-      name: "Personal Portfolio",
-      description: ["The website you're on :)"],
-      technologies: ["React", "Three.js", "TailwindCSS", "Vite", "React Router", "Spotify API", "RSS Parsing", "JavaScript"],
-      status: "In Development",
-      link: "https://github.com/CS571-SU25/p24"
-    }
   ];
 
   return (

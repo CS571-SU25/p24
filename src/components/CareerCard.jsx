@@ -7,10 +7,10 @@ const CareerCard = ({status, company, position, description, img}) => {
     if (status === "Previous") {
         borderColorClass = "border-purple-400"
         textColorClass = "text-purple-400"
-    } else if (status === "Incoming") {
+    } else if (status === "Current") {
         borderColorClass = "border-green-400"
         textColorClass = "text-green-400"
-    } else { // Current
+    } else { // Incoming
         borderColorClass = "border-orange-400"
         textColorClass = "text-orange-400"
     }
@@ -22,7 +22,7 @@ const CareerCard = ({status, company, position, description, img}) => {
                 <div className="flex-1">
                     <h3 className={`font-semibold text-lg ${textColorClass} mb-2`}>{status}</h3>
                     <h4 className="text-blue-400 text-xl font-bold mb-1 group-hover:text-blue-300 transition-colors">{company}</h4>
-                    <p className="text-green-400 text-lg font-medium mb-3">{position}</p>
+                    <p className="text-orange-400 text-lg font-medium mb-3">{position}</p>
                 </div>
                 <div className="ml-6 flex-shrink-0">
                     <div className="w-16 h-16 rounded-lg p-2 flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">

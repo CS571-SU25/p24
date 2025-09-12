@@ -8,7 +8,7 @@ import cyberforceLogo from "../assets/career/cyberforce_logo_white.png"
 const CareerTimeline = () => {
     const jobs = [
         {
-            status: "Incoming",
+            status: "Current",
             company: "Sony Interactive Entertainment",
             position: "Software Developer Intern",
             description: [
@@ -70,7 +70,7 @@ const CareerTimeline = () => {
 
     return (
         <div className="relative z-10 min-h-screen mb-12">
-            <h2 className="text-2xl font-bold text-blue-400 mb-6">[ CAREER HISTORY ]</h2>
+            <h2 className="text-2xl font-bold text-orange-400 mb-6">[ CAREER HISTORY ]</h2>
             <div className="space-y-6">
                 {jobs.map((j, idx) => {
                     return <CareerCard key={idx} status={j.status} company={j.company} position={j.position} description={j.description} img={j.img}/>
