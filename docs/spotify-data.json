@@ -22,6 +22,20 @@
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
+      "name": "Somewhere going home",
+      "artist": "kuru",
+      "album": "Stay true forever",
+      "image": "https://i.scdn.co/image/ab67616d0000b27396918036ed875f148a09112c",
+      "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
+    },
+    {
+      "name": "high enough",
+      "artist": "deathtoricky",
+      "album": "spring cleaning",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
+      "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
+    },
+    {
       "name": "GLUTGIRL66",
       "artist": "Lucy Bedroque",
       "album": "SISTERHOOD",
@@ -36,13 +50,6 @@
       "external_url": "https://open.spotify.com/track/0hMAkHg3xvr5K4uPetYm5o"
     },
     {
-      "name": "Somewhere going home",
-      "artist": "kuru",
-      "album": "Stay true forever",
-      "image": "https://i.scdn.co/image/ab67616d0000b27396918036ed875f148a09112c",
-      "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
-    },
-    {
       "name": "Idk Wtf",
       "artist": "prettifun",
       "album": "FunHouse Deluxe",
@@ -50,18 +57,11 @@
       "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     },
     {
-      "name": "high enough",
-      "artist": "deathtoricky",
-      "album": "spring cleaning",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
-      "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
-    },
-    {
-      "name": "Rolled1",
-      "artist": "prettifun",
-      "album": "FunHouse",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
-      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
+      "name": "TWICE REMOVED",
+      "artist": "Jane Remover",
+      "album": "Revengeseekerz",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ab0d83b752dcf9f2a7ddd51b",
+      "external_url": "https://open.spotify.com/track/6cMaeMxUUtPGZri4qPSQ5Y"
     },
     {
       "name": "Cel Damage",
@@ -113,8 +113,16 @@
       ]
     },
     {
+      "name": "Feng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
+      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
+      "genres": [
+        "cloud rap"
+      ]
+    },
+    {
       "name": "Destroy Lonely",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb381595af4349d9b79184f7c2",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc83ffef1cbf86d4d17e862d8",
       "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
       "genres": [
         "rage rap"
@@ -126,14 +134,6 @@
       "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
         "rage rap"
-      ]
-    },
-    {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
-      "genres": [
-        "cloud rap"
       ]
     },
     {
@@ -150,13 +150,13 @@
       ]
     },
     {
-      "name": "KULAPHANTASY",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2e88bd439832b3ac3775db1f",
-      "external_url": "https://open.spotify.com/artist/0h0owg66fumDOks3UBAkGz",
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "external_url": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY",
       "genres": [
-        "hyperpop"
+        "rap"
       ]
     }
   ],
-  "lastUpdated": "2025-09-12T06:15:32.166Z"
+  "lastUpdated": "2025-09-13T06:13:18.536Z"
 }
