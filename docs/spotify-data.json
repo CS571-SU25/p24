@@ -8,25 +8,11 @@
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
-      "name": "motives",
-      "artist": "deathtoricky",
-      "album": "relaxation zen room",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
-      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
-    },
-    {
       "name": "high enough",
       "artist": "deathtoricky",
       "album": "spring cleaning",
       "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
       "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
-    },
-    {
-      "name": "Rita",
-      "artist": "prettifun",
-      "album": "Pretti",
-      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
-      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
       "name": "FOMDJ",
@@ -36,11 +22,18 @@
       "external_url": "https://open.spotify.com/track/7bO7a1KrtmGNDIOy2u3siZ"
     },
     {
-      "name": "TWICE REMOVED",
-      "artist": "Jane Remover",
-      "album": "Revengeseekerz",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ab0d83b752dcf9f2a7ddd51b",
-      "external_url": "https://open.spotify.com/track/6cMaeMxUUtPGZri4qPSQ5Y"
+      "name": "motives",
+      "artist": "deathtoricky",
+      "album": "relaxation zen room",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
+      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+    },
+    {
+      "name": "Rita",
+      "artist": "prettifun",
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
       "name": "Rolled1",
@@ -69,6 +62,13 @@
       "album": "KULAWARE",
       "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
       "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+    },
+    {
+      "name": "why u hate me",
+      "artist": "deathtoricky",
+      "album": "spring cleaning",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
+      "external_url": "https://open.spotify.com/track/0SYu0Hlb7adnTfPLSnHzaa"
     }
   ],
   "topArtists": [
@@ -113,14 +113,6 @@
       ]
     },
     {
-      "name": "Jane Remover",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
-      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
-      "genres": [
-        "hyperpop"
-      ]
-    },
-    {
       "name": "Destroy Lonely",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc83ffef1cbf86d4d17e862d8",
       "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
@@ -134,6 +126,14 @@
       "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
         "rage rap"
+      ]
+    },
+    {
+      "name": "Jane Remover",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
+      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
+      "genres": [
+        "hyperpop"
       ]
     },
     {
@@ -158,5 +158,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-17T06:16:33.416Z"
+  "lastUpdated": "2025-09-18T06:16:13.676Z"
 }
