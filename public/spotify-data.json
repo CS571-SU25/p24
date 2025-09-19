@@ -1,11 +1,11 @@
 {
   "topTracks": [
     {
-      "name": "INFINITUDE // UROBOROS",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
+      "name": "jumanji",
+      "artist": "Destroy Lonely",
+      "album": "jumanji",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bb5326936c2d5894c3f41c59",
+      "external_url": "https://open.spotify.com/track/4iY0lkXDHJhTJ7IDngtpuK"
     },
     {
       "name": "high enough",
@@ -22,11 +22,11 @@
       "external_url": "https://open.spotify.com/track/7bO7a1KrtmGNDIOy2u3siZ"
     },
     {
-      "name": "motives",
-      "artist": "deathtoricky",
-      "album": "relaxation zen room",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
-      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
       "name": "Rita",
@@ -36,11 +36,11 @@
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
-      "name": "Rolled1",
-      "artist": "prettifun",
-      "album": "FunHouse",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e8bbebfd885e526480c09096",
-      "external_url": "https://open.spotify.com/track/5MHj0hobJDXM728rf99qSS"
+      "name": "motives",
+      "artist": "deathtoricky",
+      "album": "relaxation zen room",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
+      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
     },
     {
       "name": "Somewhere going home",
@@ -50,18 +50,11 @@
       "external_url": "https://open.spotify.com/track/1e8mlqvEl9DH9AKJqwaAPG"
     },
     {
-      "name": "SISTERHOOD (LOVE, HER.)",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/3n4blG5eQN10jGA5LnNt6W"
-    },
-    {
-      "name": "Cel Damage",
-      "artist": "KULAPHANTASY",
-      "album": "KULAWARE",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
-      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+      "name": "her friends",
+      "artist": "Nettspend",
+      "album": "gone too soon",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eaf3b733b899ac5d4fd587b5",
+      "external_url": "https://open.spotify.com/track/5t6aol8L1zmOwEnf2HN430"
     },
     {
       "name": "why u hate me",
@@ -69,9 +62,22 @@
       "album": "spring cleaning",
       "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
       "external_url": "https://open.spotify.com/track/0SYu0Hlb7adnTfPLSnHzaa"
+    },
+    {
+      "name": "Idk Wtf",
+      "artist": "prettifun",
+      "album": "FunHouse Deluxe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
+      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     }
   ],
   "topArtists": [
+    {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
     {
       "name": "Lucy Bedroque",
       "image": "https://i.scdn.co/image/ab6761610000e5eb37de764d44dbf1750ff26e17",
@@ -80,12 +86,6 @@
         "hyperpop",
         "cloud rap"
       ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
     },
     {
       "name": "prettifun",
@@ -105,19 +105,19 @@
       ]
     },
     {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
-      "genres": [
-        "cloud rap"
-      ]
-    },
-    {
       "name": "Destroy Lonely",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc83ffef1cbf86d4d17e862d8",
       "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
       "genres": [
         "rage rap"
+      ]
+    },
+    {
+      "name": "Feng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
+      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
+      "genres": [
+        "cloud rap"
       ]
     },
     {
@@ -137,26 +137,21 @@
       ]
     },
     {
-      "name": "Tim Hecker",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
-      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
-      "genres": [
-        "drone",
-        "ambient",
-        "dark ambient",
-        "idm",
-        "experimental",
-        "minimalism"
-      ]
-    },
-    {
       "name": "KULAPHANTASY",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2e88bd439832b3ac3775db1f",
       "external_url": "https://open.spotify.com/artist/0h0owg66fumDOks3UBAkGz",
       "genres": [
         "hyperpop"
       ]
+    },
+    {
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "genres": [
+        "ambient"
+      ]
     }
   ],
-  "lastUpdated": "2025-09-18T06:16:13.676Z"
+  "lastUpdated": "2025-09-19T06:16:17.305Z"
 }
