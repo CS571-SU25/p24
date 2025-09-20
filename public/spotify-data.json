@@ -8,13 +8,6 @@
       "external_url": "https://open.spotify.com/track/4iY0lkXDHJhTJ7IDngtpuK"
     },
     {
-      "name": "high enough",
-      "artist": "deathtoricky",
-      "album": "spring cleaning",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
-      "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
-    },
-    {
       "name": "FOMDJ",
       "artist": "Playboi Carti",
       "album": "MUSIC - SORRY 4 DA WAIT",
@@ -29,18 +22,11 @@
       "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     },
     {
-      "name": "Rita",
-      "artist": "prettifun",
-      "album": "Pretti",
-      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
-      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
-    },
-    {
-      "name": "motives",
+      "name": "high enough",
       "artist": "deathtoricky",
-      "album": "relaxation zen room",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e70ac7179533e964b70b1fcc",
-      "external_url": "https://open.spotify.com/track/6DutUUJbDLXPH5CMq6B94t"
+      "album": "spring cleaning",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
+      "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
     },
     {
       "name": "Somewhere going home",
@@ -57,26 +43,42 @@
       "external_url": "https://open.spotify.com/track/5t6aol8L1zmOwEnf2HN430"
     },
     {
-      "name": "why u hate me",
-      "artist": "deathtoricky",
-      "album": "spring cleaning",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
-      "external_url": "https://open.spotify.com/track/0SYu0Hlb7adnTfPLSnHzaa"
+      "name": "SISTERHOOD (LOVE, HER.)",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/3n4blG5eQN10jGA5LnNt6W"
     },
     {
-      "name": "Idk Wtf",
+      "name": "Rita",
       "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
+      "album": "Pretti",
+      "image": "https://i.scdn.co/image/ab67616d0000b273986fb8c23fb36f54373ca88c",
+      "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
+    },
+    {
+      "name": "Cel Damage",
+      "artist": "KULAPHANTASY",
+      "album": "KULAWARE",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
+      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+    },
+    {
+      "name": "M.I.A",
+      "artist": "Feng",
+      "album": "M.I.A",
+      "image": "https://i.scdn.co/image/ab67616d0000b273aa1431ecb325a8a349071f4a",
+      "external_url": "https://open.spotify.com/track/52qeMpnwozNntrdeGjm5RR"
     }
   ],
   "topArtists": [
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
+      "name": "Destroy Lonely",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc83ffef1cbf86d4d17e862d8",
+      "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
+      "genres": [
+        "rage rap"
+      ]
     },
     {
       "name": "Lucy Bedroque",
@@ -85,6 +87,14 @@
       "genres": [
         "hyperpop",
         "cloud rap"
+      ]
+    },
+    {
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
+      "genres": [
+        "rage rap"
       ]
     },
     {
@@ -97,20 +107,10 @@
       ]
     },
     {
-      "name": "Playboi Carti",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
-      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
-      "genres": [
-        "rage rap"
-      ]
-    },
-    {
-      "name": "Destroy Lonely",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc83ffef1cbf86d4d17e862d8",
-      "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
-      "genres": [
-        "rage rap"
-      ]
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
     },
     {
       "name": "Feng",
@@ -153,5 +153,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-19T06:16:17.305Z"
+  "lastUpdated": "2025-09-20T06:14:13.286Z"
 }
