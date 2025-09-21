@@ -3,9 +3,9 @@
     {
       "name": "jumanji",
       "artist": "Destroy Lonely",
-      "album": "jumanji",
-      "image": "https://i.scdn.co/image/ab67616d0000b273bb5326936c2d5894c3f41c59",
-      "external_url": "https://open.spotify.com/track/4iY0lkXDHJhTJ7IDngtpuK"
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b27365a7505f9038afa915c11b6b",
+      "external_url": "https://open.spotify.com/track/64wRr1jBEOB1knhbsNf896"
     },
     {
       "name": "FOMDJ",
@@ -64,11 +64,11 @@
       "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
     },
     {
-      "name": "M.I.A",
-      "artist": "Feng",
-      "album": "M.I.A",
-      "image": "https://i.scdn.co/image/ab67616d0000b273aa1431ecb325a8a349071f4a",
-      "external_url": "https://open.spotify.com/track/52qeMpnwozNntrdeGjm5RR"
+      "name": "Idk Wtf",
+      "artist": "prettifun",
+      "album": "FunHouse Deluxe",
+      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
+      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
     }
   ],
   "topArtists": [
@@ -107,18 +107,18 @@
       ]
     },
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
-    },
-    {
       "name": "Feng",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
       "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
         "cloud rap"
       ]
+    },
+    {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
     },
     {
       "name": "Ken Carson",
@@ -145,13 +145,13 @@
       ]
     },
     {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "name": "Homixide Gang",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb37f3b59d4e544a0da5a42e76",
+      "external_url": "https://open.spotify.com/artist/2ojqsY1ycYzZOpLDBBwHPU",
       "genres": [
-        "ambient"
+        "rage rap"
       ]
     }
   ],
-  "lastUpdated": "2025-09-20T06:14:13.286Z"
+  "lastUpdated": "2025-09-21T06:14:32.958Z"
 }
