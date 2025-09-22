@@ -4,7 +4,7 @@
       "name": "jumanji",
       "artist": "Destroy Lonely",
       "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b27365a7505f9038afa915c11b6b",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
       "external_url": "https://open.spotify.com/track/64wRr1jBEOB1knhbsNf896"
     },
     {
@@ -15,18 +15,18 @@
       "external_url": "https://open.spotify.com/track/7bO7a1KrtmGNDIOy2u3siZ"
     },
     {
-      "name": "INFINITUDE // UROBOROS",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
-    },
-    {
       "name": "high enough",
       "artist": "deathtoricky",
       "album": "spring cleaning",
       "image": "https://i.scdn.co/image/ab67616d0000b2732b0ddbe09307b48fd2d9854b",
       "external_url": "https://open.spotify.com/track/1rJ4XeN1BjlgpGURhB96gx"
+    },
+    {
+      "name": "see no evil",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
+      "external_url": "https://open.spotify.com/track/129MkJl8HHdaLtR5UP0rmM"
     },
     {
       "name": "Somewhere going home",
@@ -43,11 +43,18 @@
       "external_url": "https://open.spotify.com/track/5t6aol8L1zmOwEnf2HN430"
     },
     {
-      "name": "SISTERHOOD (LOVE, HER.)",
-      "artist": "Lucy Bedroque",
-      "album": "SISTERHOOD",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
-      "external_url": "https://open.spotify.com/track/3n4blG5eQN10jGA5LnNt6W"
+      "name": "Cel Damage",
+      "artist": "KULAPHANTASY",
+      "album": "KULAWARE",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
+      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
+    },
+    {
+      "name": "aint hard",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
+      "external_url": "https://open.spotify.com/track/1fUnO4JLV0Lu3Hfes9xbgn"
     },
     {
       "name": "Rita",
@@ -57,18 +64,11 @@
       "external_url": "https://open.spotify.com/track/5MBrbMPg5PWqSWScUFEDLf"
     },
     {
-      "name": "Cel Damage",
-      "artist": "KULAPHANTASY",
-      "album": "KULAWARE",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736ee172a56407ca0b6179cf5a",
-      "external_url": "https://open.spotify.com/track/25NnnSvJMT9GowSNp0lFla"
-    },
-    {
-      "name": "Idk Wtf",
-      "artist": "prettifun",
-      "album": "FunHouse Deluxe",
-      "image": "https://i.scdn.co/image/ab67616d0000b273250613507ab9b4b08de3182c",
-      "external_url": "https://open.spotify.com/track/2n8VyZjYfn55D1miex51Hd"
+      "name": "INFINITUDE // UROBOROS",
+      "artist": "Lucy Bedroque",
+      "album": "SISTERHOOD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e8c3102525cae282d68be09",
+      "external_url": "https://open.spotify.com/track/6MvsRCt7fro67PV9X1ILtl"
     }
   ],
   "topArtists": [
@@ -82,7 +82,7 @@
     },
     {
       "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb37de764d44dbf1750ff26e17",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
       "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
       "genres": [
         "hyperpop",
@@ -137,21 +137,21 @@
       ]
     },
     {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    {
       "name": "KULAPHANTASY",
       "image": "https://i.scdn.co/image/ab6761610000e5eb2e88bd439832b3ac3775db1f",
       "external_url": "https://open.spotify.com/artist/0h0owg66fumDOks3UBAkGz",
       "genres": [
         "hyperpop"
       ]
-    },
-    {
-      "name": "Homixide Gang",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb37f3b59d4e544a0da5a42e76",
-      "external_url": "https://open.spotify.com/artist/2ojqsY1ycYzZOpLDBBwHPU",
-      "genres": [
-        "rage rap"
-      ]
     }
   ],
-  "lastUpdated": "2025-09-21T06:14:32.958Z"
+  "lastUpdated": "2025-09-22T06:17:14.717Z"
 }
