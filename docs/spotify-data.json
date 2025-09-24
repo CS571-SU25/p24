@@ -50,6 +50,13 @@
       "external_url": "https://open.spotify.com/track/6RlqXk8bVFA0Cq8ychD6wL"
     },
     {
+      "name": "Illegal",
+      "artist": "PinkPantheress",
+      "album": "Fancy That",
+      "image": "https://i.scdn.co/image/ab67616d0000b273dd4912edb4982f53a381b98e",
+      "external_url": "https://open.spotify.com/track/1WmBVbFmLt0w6zPP37TeCG"
+    },
+    {
       "name": "kool on ya",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -62,13 +69,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
       "external_url": "https://open.spotify.com/track/34XTmZOyapmHpiiiiljLiU"
-    },
-    {
-      "name": "stfu",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
-      "external_url": "https://open.spotify.com/track/68HUeHFOLveHj4nw0iRcMA"
     }
   ],
   "topArtists": [
@@ -153,5 +153,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-09-23T06:16:25.318Z"
+  "lastUpdated": "2025-09-24T06:16:16.273Z"
 }
