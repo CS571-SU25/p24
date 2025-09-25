@@ -15,11 +15,11 @@
       "external_url": "https://open.spotify.com/track/1fUnO4JLV0Lu3Hfes9xbgn"
     },
     {
-      "name": "FOMDJ",
-      "artist": "Playboi Carti",
-      "album": "MUSIC - SORRY 4 DA WAIT",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736da4ec0bce9baf42436db10a",
-      "external_url": "https://open.spotify.com/track/7bO7a1KrtmGNDIOy2u3siZ"
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
+      "external_url": "https://open.spotify.com/track/4LbEOVEI157jwLfleJyhVy"
     },
     {
       "name": "see no evil",
@@ -27,13 +27,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
       "external_url": "https://open.spotify.com/track/129MkJl8HHdaLtR5UP0rmM"
-    },
-    {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
-      "external_url": "https://open.spotify.com/track/4LbEOVEI157jwLfleJyhVy"
     },
     {
       "name": "party n get high (interlude)",
@@ -50,13 +43,6 @@
       "external_url": "https://open.spotify.com/track/6RlqXk8bVFA0Cq8ychD6wL"
     },
     {
-      "name": "Illegal",
-      "artist": "PinkPantheress",
-      "album": "Fancy That",
-      "image": "https://i.scdn.co/image/ab67616d0000b273dd4912edb4982f53a381b98e",
-      "external_url": "https://open.spotify.com/track/1WmBVbFmLt0w6zPP37TeCG"
-    },
-    {
       "name": "kool on ya",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -64,11 +50,25 @@
       "external_url": "https://open.spotify.com/track/5CeRIPVn8DGNw7LbEq5XNc"
     },
     {
+      "name": "stfu",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
+      "external_url": "https://open.spotify.com/track/68HUeHFOLveHj4nw0iRcMA"
+    },
+    {
       "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
       "external_url": "https://open.spotify.com/track/34XTmZOyapmHpiiiiljLiU"
+    },
+    {
+      "name": "show u how",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a845e8578e810f25b30407dd",
+      "external_url": "https://open.spotify.com/track/2IvR9GR115jy5N8wGZqxzl"
     }
   ],
   "topArtists": [
@@ -98,15 +98,6 @@
       ]
     },
     {
-      "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc775bbd15f1f1edf52359c53",
-      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
-      "genres": [
-        "underground hip hop",
-        "rage rap"
-      ]
-    },
-    {
       "name": "Feng",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
       "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
@@ -115,10 +106,11 @@
       ]
     },
     {
-      "name": "Ken Carson",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
-      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "name": "prettifun",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc775bbd15f1f1edf52359c53",
+      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
+        "underground hip hop",
         "rage rap"
       ]
     },
@@ -137,6 +129,12 @@
       "genres": []
     },
     {
+      "name": "Cafuné",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
+      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
+      "genres": []
+    },
+    {
       "name": "Jane Remover",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
@@ -145,13 +143,13 @@
       ]
     },
     {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
-        "ambient"
+        "rage rap"
       ]
     }
   ],
-  "lastUpdated": "2025-09-24T06:16:16.273Z"
+  "lastUpdated": "2025-09-25T06:16:31.446Z"
 }
