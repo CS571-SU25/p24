@@ -22,13 +22,6 @@
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
-    },
-    {
       "name": "blowin smoke",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -41,6 +34,13 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
+    },
+    {
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
       "name": "top flo",
@@ -90,12 +90,10 @@
       ]
     },
     {
-      "name": "Playboi Carti",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
-      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
-      "genres": [
-        "rage rap"
-      ]
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
     },
     {
       "name": "Feng",
@@ -106,10 +104,26 @@
       ]
     },
     {
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
       "name": "Cafuné",
       "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
       "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
       "genres": []
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
     },
     {
       "name": "prettifun",
@@ -121,20 +135,6 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
-    },
-    {
       "name": "Jane Remover",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
@@ -143,13 +143,18 @@
       ]
     },
     {
-      "name": "KULAPHANTASY",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb2e88bd439832b3ac3775db1f",
-      "external_url": "https://open.spotify.com/artist/0h0owg66fumDOks3UBAkGz",
+      "name": "Tim Hecker",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
+      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
       "genres": [
-        "hyperpop"
+        "drone",
+        "ambient",
+        "dark ambient",
+        "idm",
+        "experimental",
+        "minimalism"
       ]
     }
   ],
-  "lastUpdated": "2025-09-28T06:14:33.678Z"
+  "lastUpdated": "2025-09-29T06:17:11.178Z"
 }
