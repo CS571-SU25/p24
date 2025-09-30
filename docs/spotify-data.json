@@ -15,11 +15,25 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
+    },
+    {
       "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+    },
+    {
+      "name": "top flo",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
       "name": "blowin smoke",
@@ -36,20 +50,6 @@
       "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     },
     {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
-    },
-    {
-      "name": "top flo",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
-    },
-    {
       "name": "stfu",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -57,11 +57,11 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "kool on ya",
+      "name": "show u how",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4BLWbGr09IUEknTPC5PPlw"
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
       "name": "kansas",
@@ -143,18 +143,13 @@
       ]
     },
     {
-      "name": "Tim Hecker",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebcd1bb3562720521214eb29d1",
-      "external_url": "https://open.spotify.com/artist/1qiwaJwjKod5WhcYZ76O1B",
+      "name": "Slow Attack Ensemble",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
+      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
       "genres": [
-        "drone",
-        "ambient",
-        "dark ambient",
-        "idm",
-        "experimental",
-        "minimalism"
+        "ambient"
       ]
     }
   ],
-  "lastUpdated": "2025-09-29T06:17:11.178Z"
+  "lastUpdated": "2025-09-30T06:16:46.007Z"
 }
