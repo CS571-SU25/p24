@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
-    },
-    {
       "name": "kansas",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+    },
+    {
+      "name": "show u how",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     }
   ],
   "topArtists": [
@@ -90,39 +90,11 @@
       ]
     },
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
-    },
-    {
       "name": "Feng",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
       "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
         "cloud rap"
-      ]
-    },
-    {
-      "name": "Playboi Carti",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
-      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
-      "genres": [
-        "rage rap"
-      ]
-    },
-    {
-      "name": "Cafuné",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
-      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
-      "genres": []
-    },
-    {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
       ]
     },
     {
@@ -135,21 +107,49 @@
       ]
     },
     {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
+      "name": "Cafuné",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
+      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
+      "genres": []
+    },
+    {
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    {
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
       "name": "Jane Remover",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
         "hyperpop"
       ]
-    },
-    {
-      "name": "Slow Attack Ensemble",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb60f501712c84cf7a3506f3e2",
-      "external_url": "https://open.spotify.com/artist/1YsM3PBHRzAPjdDhj5d6As",
-      "genres": [
-        "ambient"
-      ]
     }
   ],
-  "lastUpdated": "2025-10-01T06:16:14.635Z"
+  "lastUpdated": "2025-10-02T06:15:37.474Z"
 }
