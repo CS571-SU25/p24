@@ -22,6 +22,13 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
+      "name": "top flo",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
+    },
+    {
       "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -29,11 +36,11 @@
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
-      "name": "top flo",
+      "name": "stfu",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
+      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
       "name": "party n get high (interlude)",
@@ -48,13 +55,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
-    },
-    {
-      "name": "stfu",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
       "name": "kansas",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-02T06:15:37.474Z"
+  "lastUpdated": "2025-10-03T06:15:31.267Z"
 }
