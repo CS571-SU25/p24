@@ -22,18 +22,18 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
-      "name": "top flo",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
-    },
-    {
       "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+    },
+    {
+      "name": "top flo",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
       "name": "stfu",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-04T06:14:03.305Z"
+  "lastUpdated": "2025-10-05T06:13:55.644Z"
 }
