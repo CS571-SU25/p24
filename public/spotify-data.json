@@ -107,15 +107,15 @@
       ]
     },
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
-    },
-    {
       "name": "Cafuné",
       "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
       "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
+      "genres": []
+    },
+    {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
       "genres": []
     },
     {
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-05T06:13:55.644Z"
+  "lastUpdated": "2025-10-06T06:16:49.489Z"
 }
