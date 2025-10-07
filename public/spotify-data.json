@@ -15,6 +15,13 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
+      "name": "top flo",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
+    },
+    {
       "name": "no pressure",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -27,13 +34,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
-    },
-    {
-      "name": "top flo",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
       "name": "stfu",
@@ -50,18 +50,18 @@
       "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     },
     {
-      "name": "blowin smoke",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
-    },
-    {
       "name": "kansas",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+    },
+    {
+      "name": "risk",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
     },
     {
       "name": "show u how",
@@ -107,15 +107,15 @@
       ]
     },
     {
-      "name": "Cafuné",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
-      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
       "genres": []
     },
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebd4888210594d8cfc68842ad0",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "name": "Cafuné",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
+      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
       "genres": []
     },
     {
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-06T06:16:49.489Z"
+  "lastUpdated": "2025-10-07T06:15:58.489Z"
 }
