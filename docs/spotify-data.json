@@ -15,13 +15,6 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
-      "name": "top flo",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
-    },
-    {
       "name": "no pressure",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -29,11 +22,11 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
-      "name": "see no evil",
+      "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
       "name": "stfu",
@@ -43,11 +36,11 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "party n get high (interlude)",
+      "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
+      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
       "name": "kansas",
@@ -57,18 +50,25 @@
       "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
     },
     {
-      "name": "risk",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
-    },
-    {
       "name": "show u how",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+    },
+    {
+      "name": "blowin smoke",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
+    },
+    {
+      "name": "party n get high (interlude)",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     }
   ],
   "topArtists": [
@@ -78,15 +78,6 @@
       "external_url": "https://open.spotify.com/artist/1HPW4jeRjXBFRoUnSvBzoD",
       "genres": [
         "rage rap"
-      ]
-    },
-    {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
-      "genres": [
-        "hyperpop",
-        "cloud rap"
       ]
     },
     {
@@ -104,6 +95,15 @@
       "genres": [
         "underground hip hop",
         "rage rap"
+      ]
+    },
+    {
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
       ]
     },
     {
@@ -127,14 +127,6 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
       "name": "Ken Carson",
       "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
       "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
@@ -143,13 +135,21 @@
       ]
     },
     {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    {
       "name": "Jane Remover",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc72499bf3198307b1900b09b",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb349727f114a696bdd50b7370",
       "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
       "genres": [
         "hyperpop"
       ]
     }
   ],
-  "lastUpdated": "2025-10-07T06:15:58.489Z"
+  "lastUpdated": "2025-10-08T06:16:18.603Z"
 }
