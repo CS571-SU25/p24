@@ -81,14 +81,6 @@
       ]
     },
     {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
-      "genres": [
-        "cloud rap"
-      ]
-    },
-    {
       "name": "prettifun",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc775bbd15f1f1edf52359c53",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
@@ -98,11 +90,10 @@
       ]
     },
     {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "name": "Feng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
+      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
-        "hyperpop",
         "cloud rap"
       ]
     },
@@ -111,6 +102,15 @@
       "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
       "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
       "genres": []
+    },
+    {
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
+      ]
     },
     {
       "name": "Cafuné",
@@ -151,5 +151,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-08T06:16:18.603Z"
+  "lastUpdated": "2025-10-09T06:16:32.229Z"
 }
