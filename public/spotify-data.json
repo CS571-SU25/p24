@@ -29,18 +29,18 @@
       "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
-      "name": "stfu",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
-    },
-    {
       "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+    },
+    {
+      "name": "stfu",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
       "name": "kansas",
@@ -90,11 +90,19 @@
       ]
     },
     {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
       "genres": [
-        "cloud rap"
+        "bedroom pop"
+      ]
+    },
+    {
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "genres": [
+        "rage rap"
       ]
     },
     {
@@ -119,6 +127,14 @@
       "genres": []
     },
     {
+      "name": "Feng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
+      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
+      "genres": [
+        "cloud rap"
+      ]
+    },
+    {
       "name": "Playboi Carti",
       "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
       "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
@@ -127,29 +143,16 @@
       ]
     },
     {
-      "name": "Ken Carson",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
-      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "name": "Triptides",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
+      "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
       "genres": [
-        "rage rap"
-      ]
-    },
-    {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
-      "name": "Jane Remover",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb349727f114a696bdd50b7370",
-      "external_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
-      "genres": [
-        "hyperpop"
+        "neo-psychedelic",
+        "surf rock",
+        "space rock",
+        "psychedelic rock"
       ]
     }
   ],
-  "lastUpdated": "2025-10-09T06:16:32.229Z"
+  "lastUpdated": "2025-10-10T06:16:17.198Z"
 }
