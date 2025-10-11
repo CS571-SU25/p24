@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
+      "name": "risk",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
+    },
+    {
       "name": "blowin smoke",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
-    },
-    {
-      "name": "party n get high (interlude)",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     }
   ],
   "topArtists": [
@@ -112,6 +112,12 @@
       "genres": []
     },
     {
+      "name": "Cafuné",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
+      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
+      "genres": []
+    },
+    {
       "name": "Lucy Bedroque",
       "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
       "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
@@ -121,10 +127,12 @@
       ]
     },
     {
-      "name": "Cafuné",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
-      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
-      "genres": []
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
+      "genres": [
+        "rage rap"
+      ]
     },
     {
       "name": "Feng",
@@ -132,14 +140,6 @@
       "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
         "cloud rap"
-      ]
-    },
-    {
-      "name": "Playboi Carti",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
-      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
-      "genres": [
-        "rage rap"
       ]
     },
     {
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-10T06:16:17.198Z"
+  "lastUpdated": "2025-10-11T06:13:58.476Z"
 }
