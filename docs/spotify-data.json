@@ -135,24 +135,22 @@
       ]
     },
     {
+      "name": "OsamaSon",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7f87ae635e2cd1647e710d73",
+      "external_url": "https://open.spotify.com/artist/0uj6QiPsPfK8ywLC7uwBE1",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
+      ]
+    },
+    {
       "name": "Feng",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
       "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
         "cloud rap"
       ]
-    },
-    {
-      "name": "Triptides",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
-      "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
-      "genres": [
-        "neo-psychedelic",
-        "surf rock",
-        "space rock",
-        "psychedelic rock"
-      ]
     }
   ],
-  "lastUpdated": "2025-10-11T06:13:58.476Z"
+  "lastUpdated": "2025-10-12T06:14:03.695Z"
 }
