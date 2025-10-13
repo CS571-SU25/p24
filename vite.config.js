@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/',
+  base: '/personal-website/',
   build: {
     outDir: 'docs',
     rollupOptions: {
