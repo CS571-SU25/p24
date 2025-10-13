@@ -8,19 +8,19 @@ const LetterboxdFeed = () => {
     useEffect(() => {
         const fetchLetterboxdFeed = async () => {
             try {
-                // need to use a CORS proxy to fetch the RSS feed cuz no backend :()
-                const proxyUrl = 'https://corsproxy.io/?';
+                // Use a safe, reputable CORS-anywhere service (Cloudflare Workers based)
+                // Alternative: Use allorigins.win which is open-source and reputable
+                const proxyUrl = 'https://api.allorigins.win/raw?url=';
                 const rssUrl = 'https://letterboxd.com/MeatyMahir/rss/';
                 
                 // Add timeout and proper error handling
                 const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 8000);
+                const timeoutId = setTimeout(() => controller.abort(), 10000);
                 
                 const response = await fetch(proxyUrl + encodeURIComponent(rssUrl), {
                     signal: controller.signal,
                     headers: {
-                        'Accept': 'application/rss+xml, application/xml, text/xml',
-                        'User-Agent': 'Mozilla/5.0 (compatible; Portfolio-Site/1.0)'
+                        'Accept': 'application/rss+xml, application/xml, text/xml'
                     }
                 });
                 

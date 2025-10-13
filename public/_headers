@@ -3,7 +3,8 @@
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://corsproxy.io https://letterboxd.com https://a.ltrbxd.com; frame-ancestors 'none';
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://api.allorigins.win https://letterboxd.com https://a.ltrbxd.com https://api.spotify.com https://accounts.spotify.com https://i.scdn.co; frame-ancestors 'none';
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
   
 # Cache static assets
 /assets/*
