@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/personal-website/',
+  base: '/', // Root path for custom domain
   build: {
     outDir: 'docs',
     rollupOptions: {
