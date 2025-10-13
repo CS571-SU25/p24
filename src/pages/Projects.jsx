@@ -18,7 +18,7 @@ const Projects = () => {
       description: ["The website you're on :)"],
       technologies: ["React", "Three.js", "TailwindCSS", "Vite", "React Router", "Spotify API", "RSS Parsing", "JavaScript"],
       status: "In Development",
-      link: "https://github.com/CS571-SU25/p24"
+      link: "https://github.com/Mahir-2003/personal-website"
     },
     {
       id: 3,
