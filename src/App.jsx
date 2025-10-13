@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router'
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router' // Changed from HashRouter
 import Home from './pages/Home';
 import Navigation from './components/Navigation';
 import { LoadingProvider, useLoading } from './hooks/useLoading';

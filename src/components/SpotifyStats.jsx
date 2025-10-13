@@ -8,9 +8,8 @@ const SpotifyStats = () => {
   useEffect(() => {
     const loadSpotifyData = async () => {
       try {
-        // Fetch JSON data from public directory (with base path)
-        const base = import.meta.env.BASE_URL || '/';
-        const url = `${base}/spotify-data.json?ts=${Date.now()}`;
+        // Fetch JSON data from public directory
+        const url = `/spotify-data.json?ts=${Date.now()}`;
         const response = await fetch(url, { cache: 'no-store' });
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
