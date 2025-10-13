@@ -90,19 +90,19 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
       "name": "Ken Carson",
       "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
       "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
         "rage rap"
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
       ]
     },
     {
@@ -118,12 +118,12 @@
       "genres": []
     },
     {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "name": "OsamaSon",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7f87ae635e2cd1647e710d73",
+      "external_url": "https://open.spotify.com/artist/0uj6QiPsPfK8ywLC7uwBE1",
       "genres": [
-        "hyperpop",
-        "cloud rap"
+        "rage rap",
+        "underground hip hop"
       ]
     },
     {
@@ -135,12 +135,12 @@
       ]
     },
     {
-      "name": "OsamaSon",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7f87ae635e2cd1647e710d73",
-      "external_url": "https://open.spotify.com/artist/0uj6QiPsPfK8ywLC7uwBE1",
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
       "genres": [
-        "rage rap",
-        "underground hip hop"
+        "hyperpop",
+        "cloud rap"
       ]
     },
     {
@@ -152,5 +152,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-12T06:14:03.695Z"
+  "lastUpdated": "2025-10-13T06:17:46.092Z"
 }
