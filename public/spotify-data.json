@@ -81,6 +81,15 @@
       ]
     },
     {
+      "name": "OsamaSon",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7f87ae635e2cd1647e710d73",
+      "external_url": "https://open.spotify.com/artist/0uj6QiPsPfK8ywLC7uwBE1",
+      "genres": [
+        "rage rap",
+        "underground hip hop"
+      ]
+    },
+    {
       "name": "prettifun",
       "image": "https://i.scdn.co/image/ab6761610000e5ebc775bbd15f1f1edf52359c53",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
@@ -118,12 +127,22 @@
       "genres": []
     },
     {
-      "name": "OsamaSon",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7f87ae635e2cd1647e710d73",
-      "external_url": "https://open.spotify.com/artist/0uj6QiPsPfK8ywLC7uwBE1",
+      "name": "Feng",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
+      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
       "genres": [
-        "rage rap",
-        "underground hip hop"
+        "cloud rap"
+      ]
+    },
+    {
+      "name": "Triptides",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
+      "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
+      "genres": [
+        "neo-psychedelic",
+        "surf rock",
+        "space rock",
+        "psychedelic rock"
       ]
     },
     {
@@ -133,24 +152,7 @@
       "genres": [
         "rage rap"
       ]
-    },
-    {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
-      "genres": [
-        "hyperpop",
-        "cloud rap"
-      ]
-    },
-    {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
-      "genres": [
-        "cloud rap"
-      ]
     }
   ],
-  "lastUpdated": "2025-10-13T06:17:46.092Z"
+  "lastUpdated": "2025-10-14T06:16:56.862Z"
 }
