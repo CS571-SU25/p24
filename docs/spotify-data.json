@@ -1,18 +1,18 @@
 {
   "topTracks": [
     {
-      "name": "jumanji",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4yRGHaraXA2z6LFpQp6SCI"
-    },
-    {
       "name": "aint hard",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
+    },
+    {
+      "name": "jumanji",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4yRGHaraXA2z6LFpQp6SCI"
     },
     {
       "name": "no pressure",
@@ -154,5 +154,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-14T06:16:56.862Z"
+  "lastUpdated": "2025-10-15T06:16:36.403Z"
 }
