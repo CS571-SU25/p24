@@ -29,13 +29,6 @@
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
-      "name": "jumanji",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4yRGHaraXA2z6LFpQp6SCI"
-    },
-    {
       "name": "stfu",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -69,6 +62,13 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
+    },
+    {
+      "name": "jumanji",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4yRGHaraXA2z6LFpQp6SCI"
     }
   ],
   "topArtists": [
@@ -156,5 +156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-17T06:16:10.752Z"
+  "lastUpdated": "2025-10-18T06:14:28.409Z"
 }
