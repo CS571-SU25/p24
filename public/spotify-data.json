@@ -8,13 +8,6 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
-    },
-    {
       "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -22,11 +15,11 @@
       "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
-      "name": "see no evil",
+      "name": "no pressure",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
       "name": "stfu",
@@ -34,6 +27,13 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
+    },
+    {
+      "name": "see no evil",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
       "name": "kansas",
@@ -50,6 +50,13 @@
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
+      "name": "party n get high (interlude)",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
+    },
+    {
       "name": "risk",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -57,18 +64,11 @@
       "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
     },
     {
-      "name": "blowin smoke",
+      "name": "screwed up",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
-    },
-    {
-      "name": "jumanji",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4yRGHaraXA2z6LFpQp6SCI"
+      "external_url": "https://open.spotify.com/track/7bK9ZjEZXxGzYFs8YSZZvK"
     }
   ],
   "topArtists": [
@@ -107,18 +107,18 @@
       ]
     },
     {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
       "name": "PinkPantheress",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
       "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
       "genres": [
         "bedroom pop"
       ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
     },
     {
       "name": "Cafuné",
@@ -156,5 +156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-18T06:14:28.409Z"
+  "lastUpdated": "2025-10-19T06:15:09.534Z"
 }
