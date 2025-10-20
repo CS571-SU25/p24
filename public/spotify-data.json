@@ -22,6 +22,13 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
+      "name": "kansas",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+    },
+    {
       "name": "stfu",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -36,11 +43,11 @@
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
-      "name": "kansas",
+      "name": "party n get high (interlude)",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     },
     {
       "name": "show u how",
@@ -48,13 +55,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
-    },
-    {
-      "name": "party n get high (interlude)",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
     },
     {
       "name": "risk",
@@ -113,14 +113,6 @@
       "genres": []
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
       "name": "Cafuné",
       "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
       "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
@@ -134,6 +126,14 @@
         "dream pop",
         "shoegaze",
         "gothic rock"
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
       ]
     },
     {
@@ -156,5 +156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-19T06:15:09.534Z"
+  "lastUpdated": "2025-10-20T06:17:09.413Z"
 }
