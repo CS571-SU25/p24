@@ -22,11 +22,11 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
-      "name": "kansas",
+      "name": "see no evil",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
       "name": "stfu",
@@ -36,25 +36,11 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "see no evil",
+      "name": "kansas",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
-    },
-    {
-      "name": "party n get high (interlude)",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/2Q9XhrhksWBKyS5xh6cCqs"
-    },
-    {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
     },
     {
       "name": "risk",
@@ -64,11 +50,25 @@
       "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
     },
     {
+      "name": "show u how",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+    },
+    {
       "name": "screwed up",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/7bK9ZjEZXxGzYFs8YSZZvK"
+    },
+    {
+      "name": "blowin smoke",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
     }
   ],
   "topArtists": [
@@ -129,22 +129,6 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
-      "name": "Feng",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad0afabc942e86b350c9aa11",
-      "external_url": "https://open.spotify.com/artist/278vNvolx8H3sQJ2hgOMnh",
-      "genres": [
-        "cloud rap"
-      ]
-    },
-    {
       "name": "Triptides",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
       "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
@@ -154,7 +138,23 @@
         "space rock",
         "psychedelic rock"
       ]
+    },
+    {
+      "name": "Nine Vicious",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
+      "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
+      "genres": [
+        "underground hip hop"
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
     }
   ],
-  "lastUpdated": "2025-10-20T06:17:09.413Z"
+  "lastUpdated": "2025-10-21T06:16:45.401Z"
 }
