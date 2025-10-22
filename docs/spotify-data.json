@@ -64,11 +64,11 @@
       "external_url": "https://open.spotify.com/track/7bK9ZjEZXxGzYFs8YSZZvK"
     },
     {
-      "name": "blowin smoke",
+      "name": "whats it gon take?",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/177oDTNw9W7tZrOpzeX6XJ"
+      "external_url": "https://open.spotify.com/track/13fceAfv5ZN74ZIv9TM5zb"
     }
   ],
   "topArtists": [
@@ -129,6 +129,15 @@
       ]
     },
     {
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
+      ]
+    },
+    {
       "name": "Triptides",
       "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
       "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
@@ -146,15 +155,7 @@
       "genres": [
         "underground hip hop"
       ]
-    },
-    {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
     }
   ],
-  "lastUpdated": "2025-10-21T06:16:45.401Z"
+  "lastUpdated": "2025-10-22T06:16:56.199Z"
 }
