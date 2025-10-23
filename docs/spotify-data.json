@@ -36,11 +36,11 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "kansas",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+      "name": "Habits",
+      "artist": "OsamaSon",
+      "album": "psykotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
+      "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
     },
     {
       "name": "risk",
@@ -57,18 +57,18 @@
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
+      "name": "kansas",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+    },
+    {
       "name": "screwed up",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/7bK9ZjEZXxGzYFs8YSZZvK"
-    },
-    {
-      "name": "whats it gon take?",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/13fceAfv5ZN74ZIv9TM5zb"
     }
   ],
   "topArtists": [
@@ -107,16 +107,13 @@
       ]
     },
     {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
-    },
-    {
-      "name": "Cafuné",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb4d72dc74c11df7baf1d08508",
-      "external_url": "https://open.spotify.com/artist/581C5Qwl87TskfBEzuoisu",
-      "genres": []
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
+      ]
     },
     {
       "name": "Cocteau Twins",
@@ -129,13 +126,10 @@
       ]
     },
     {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
-      "genres": [
-        "hyperpop",
-        "cloud rap"
-      ]
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
     },
     {
       "name": "Triptides",
@@ -155,7 +149,15 @@
       "genres": [
         "underground hip hop"
       ]
+    },
+    {
+      "name": "PinkPantheress",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
+      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
+      "genres": [
+        "bedroom pop"
+      ]
     }
   ],
-  "lastUpdated": "2025-10-22T06:16:56.199Z"
+  "lastUpdated": "2025-10-23T06:16:40.596Z"
 }
