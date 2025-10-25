@@ -8,13 +8,6 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
-    },
-    {
       "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -22,11 +15,11 @@
       "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
-      "name": "Habits",
-      "artist": "OsamaSon",
-      "album": "psykotic",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
-      "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
       "name": "see no evil",
@@ -36,11 +29,11 @@
       "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     },
     {
-      "name": "stfu",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
+      "name": "Habits",
+      "artist": "OsamaSon",
+      "album": "psykotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
+      "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
     },
     {
       "name": "risk",
@@ -48,6 +41,13 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
+    },
+    {
+      "name": "stfu",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
       "name": "show u how",
@@ -159,5 +159,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-24T06:15:53.155Z"
+  "lastUpdated": "2025-10-25T06:14:22.550Z"
 }
