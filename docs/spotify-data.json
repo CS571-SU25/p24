@@ -99,14 +99,6 @@
       ]
     },
     {
-      "name": "Ken Carson",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
-      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
-      "genres": [
-        "rage rap"
-      ]
-    },
-    {
       "name": "Playboi Carti",
       "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
       "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
@@ -142,6 +134,14 @@
       ]
     },
     {
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
       "name": "deathtoricky",
       "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
       "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
@@ -156,5 +156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-10-28T06:17:01.986Z"
+  "lastUpdated": "2025-10-29T06:17:24.534Z"
 }
