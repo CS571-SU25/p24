@@ -8,6 +8,13 @@
       "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
+    },
+    {
       "name": "Habits",
       "artist": "OsamaSon",
       "album": "psykotic",
@@ -22,11 +29,18 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
-      "name": "no pressure",
+      "name": "show u how",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+    },
+    {
+      "name": "kansas",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
     },
     {
       "name": "Addicted",
@@ -36,27 +50,6 @@
       "external_url": "https://open.spotify.com/track/7iZqma5DV0h12Orxlb20VU"
     },
     {
-      "name": "risk",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
-    },
-    {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
-    },
-    {
-      "name": "see no evil",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
-    },
-    {
       "name": "stfu",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -64,11 +57,18 @@
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
     },
     {
-      "name": "kansas",
+      "name": "risk",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
+    },
+    {
+      "name": "see no evil",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
     }
   ],
   "topArtists": [
@@ -134,6 +134,15 @@
       ]
     },
     {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "external_url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
+      "genres": [
+        "neo-psychedelic",
+        "indie"
+      ]
+    },
+    {
       "name": "Nine Vicious",
       "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
       "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
@@ -146,18 +155,7 @@
       "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
       "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
       "genres": []
-    },
-    {
-      "name": "Triptides",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6208d4ccc20330bc03bdf1cc",
-      "external_url": "https://open.spotify.com/artist/6gCwR8CCL5jkaCNcmw26rI",
-      "genres": [
-        "neo-psychedelic",
-        "surf rock",
-        "space rock",
-        "psychedelic rock"
-      ]
     }
   ],
-  "lastUpdated": "2025-11-01T06:14:22.354Z"
+  "lastUpdated": "2025-11-02T06:15:12.909Z"
 }
