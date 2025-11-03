@@ -43,6 +43,13 @@
       "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
     },
     {
+      "name": "risk",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
+    },
+    {
       "name": "Addicted",
       "artist": "OsamaSon",
       "album": "psykotic",
@@ -55,13 +62,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
-    },
-    {
-      "name": "risk",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
     },
     {
       "name": "see no evil",
@@ -157,5 +157,5 @@
       "genres": []
     }
   ],
-  "lastUpdated": "2025-11-02T06:15:12.909Z"
+  "lastUpdated": "2025-11-03T06:17:53.844Z"
 }
