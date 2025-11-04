@@ -1,13 +1,6 @@
 {
   "topTracks": [
     {
-      "name": "top flo",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
-    },
-    {
       "name": "no pressure",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -22,32 +15,18 @@
       "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
     },
     {
+      "name": "top flo",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
+    },
+    {
       "name": "aint hard",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
-    },
-    {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
-    },
-    {
-      "name": "kansas",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
-    },
-    {
-      "name": "risk",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/6kiNgYgpMhAw1OqWnc8W0Q"
     },
     {
       "name": "Addicted",
@@ -57,18 +36,39 @@
       "external_url": "https://open.spotify.com/track/7iZqma5DV0h12Orxlb20VU"
     },
     {
-      "name": "stfu",
+      "name": "show u how",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/54uGPvLZO85hfbrtGN0oWF"
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
-      "name": "see no evil",
+      "name": "Eternal Rest",
+      "artist": "Avith Ortega",
+      "album": "Silent Hill: The Headphones (Covers)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27362d91dbd4089ea18ff77df7a",
+      "external_url": "https://open.spotify.com/track/40urlaLGS1EZIKDQ7eNQbN"
+    },
+    {
+      "name": "kansas",
       "artist": "Destroy Lonely",
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/0iBalMrfTDyhSn0vAH7t87"
+      "external_url": "https://open.spotify.com/track/509aLiyvluyLwdujOIsKHx"
+    },
+    {
+      "name": "BUFF BBY",
+      "artist": "rexv2",
+      "album": "BUFF BBY",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733e3148cd25b179e9280467f8",
+      "external_url": "https://open.spotify.com/track/3hgKImbnnlEo91XTerv2NV"
+    },
+    {
+      "name": "Get Away",
+      "artist": "OsamaSon",
+      "album": "psykotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
+      "external_url": "https://open.spotify.com/track/0BK5jHV7meLWD7hdcPl4W3"
     }
   ],
   "topArtists": [
@@ -134,6 +134,12 @@
       ]
     },
     {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "external_url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
@@ -143,19 +149,13 @@
       ]
     },
     {
-      "name": "Nine Vicious",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
-      "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
+      "name": "Ken Carson",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb95ccca370d8bd50e84c222bc",
+      "external_url": "https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX",
       "genres": [
-        "underground hip hop"
+        "rage rap"
       ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
     }
   ],
-  "lastUpdated": "2025-11-03T06:17:53.844Z"
+  "lastUpdated": "2025-11-04T06:17:28.033Z"
 }
