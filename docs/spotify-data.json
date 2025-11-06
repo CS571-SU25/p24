@@ -1,6 +1,13 @@
 {
   "topTracks": [
     {
+      "name": "yes",
+      "artist": "Ken Carson",
+      "album": "yes",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cfccf7cb249c22931be7fce0",
+      "external_url": "https://open.spotify.com/track/0AsznzqG4tJ0qnrWBZHrJO"
+    },
+    {
       "name": "Habits",
       "artist": "OsamaSon",
       "album": "psykotic",
@@ -15,13 +22,6 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
-      "name": "no pressure",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
-    },
-    {
       "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -29,11 +29,18 @@
       "external_url": "https://open.spotify.com/track/4JqrDSsXQF7fGXhJrgtAv3"
     },
     {
-      "name": "yes",
-      "artist": "Ken Carson",
-      "album": "yes",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cfccf7cb249c22931be7fce0",
-      "external_url": "https://open.spotify.com/track/0AsznzqG4tJ0qnrWBZHrJO"
+      "name": "no pressure",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
+    },
+    {
+      "name": "Eternal Rest",
+      "artist": "Avith Ortega",
+      "album": "Silent Hill: The Headphones (Covers)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27362d91dbd4089ea18ff77df7a",
+      "external_url": "https://open.spotify.com/track/40urlaLGS1EZIKDQ7eNQbN"
     },
     {
       "name": "Addicted",
@@ -48,13 +55,6 @@
       "album": "</3³",
       "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
       "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
-    },
-    {
-      "name": "Eternal Rest",
-      "artist": "Avith Ortega",
-      "album": "Silent Hill: The Headphones (Covers)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27362d91dbd4089ea18ff77df7a",
-      "external_url": "https://open.spotify.com/track/40urlaLGS1EZIKDQ7eNQbN"
     },
     {
       "name": "BUFF BBY",
@@ -90,19 +90,19 @@
       ]
     },
     {
+      "name": "Playboi Carti",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
+      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
+      "genres": [
+        "rage rap"
+      ]
+    },
+    {
       "name": "prettifun",
       "image": "https://i.scdn.co/image/ab6761610000e5eb786cb3a7d1e4009e2755ffbc",
       "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
       "genres": [
         "underground hip hop",
-        "rage rap"
-      ]
-    },
-    {
-      "name": "Playboi Carti",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
-      "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
-      "genres": [
         "rage rap"
       ]
     },
@@ -157,5 +157,5 @@
       "genres": []
     }
   ],
-  "lastUpdated": "2025-11-05T06:17:26.048Z"
+  "lastUpdated": "2025-11-06T06:17:25.812Z"
 }
