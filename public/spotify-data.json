@@ -22,6 +22,13 @@
       "external_url": "https://open.spotify.com/track/6cF1WdjcCEdjS7aMq6kJDj"
     },
     {
+      "name": "Eternal Rest",
+      "artist": "Avith Ortega",
+      "album": "Silent Hill: The Headphones (Covers)",
+      "image": "https://i.scdn.co/image/ab67616d0000b27362d91dbd4089ea18ff77df7a",
+      "external_url": "https://open.spotify.com/track/40urlaLGS1EZIKDQ7eNQbN"
+    },
+    {
       "name": "top flo",
       "artist": "Destroy Lonely",
       "album": "</3³",
@@ -36,25 +43,11 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
-      "name": "Eternal Rest",
-      "artist": "Avith Ortega",
-      "album": "Silent Hill: The Headphones (Covers)",
-      "image": "https://i.scdn.co/image/ab67616d0000b27362d91dbd4089ea18ff77df7a",
-      "external_url": "https://open.spotify.com/track/40urlaLGS1EZIKDQ7eNQbN"
-    },
-    {
       "name": "Addicted",
       "artist": "OsamaSon",
       "album": "psykotic",
       "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
       "external_url": "https://open.spotify.com/track/7iZqma5DV0h12Orxlb20VU"
-    },
-    {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
     },
     {
       "name": "BUFF BBY",
@@ -69,6 +62,13 @@
       "album": "psykotic",
       "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
       "external_url": "https://open.spotify.com/track/0BK5jHV7meLWD7hdcPl4W3"
+    },
+    {
+      "name": "FMJ (feat. Che)",
+      "artist": "OsamaSon",
+      "album": "psykotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
+      "external_url": "https://open.spotify.com/track/4iLsg1kZif1DGcdywxEP3M"
     }
   ],
   "topArtists": [
@@ -94,15 +94,6 @@
       "image": "https://i.scdn.co/image/ab6761610000e5ebba50ca67ffc3097f6ea1710a",
       "external_url": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD",
       "genres": [
-        "rage rap"
-      ]
-    },
-    {
-      "name": "prettifun",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb786cb3a7d1e4009e2755ffbc",
-      "external_url": "https://open.spotify.com/artist/3J3ngZn7GjzjwCPBkqtz65",
-      "genres": [
-        "underground hip hop",
         "rage rap"
       ]
     },
@@ -134,14 +125,6 @@
       ]
     },
     {
-      "name": "PinkPantheress",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb6bf10d74063b45938f5d8656",
-      "external_url": "https://open.spotify.com/artist/78rUTD7y6Cy67W1RVzYs7t",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "external_url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
@@ -155,7 +138,25 @@
       "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
       "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
       "genres": []
+    },
+    {
+      "name": "Nine Vicious",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
+      "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
+      "genres": [
+        "underground hip hop"
+      ]
+    },
+    {
+      "name": "kuru",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcaa57ca5c67210b0daede1ab",
+      "external_url": "https://open.spotify.com/artist/1KJ5ZZBncdHtz60i3fiQYu",
+      "genres": [
+        "hyperpop",
+        "glitch",
+        "cloud rap"
+      ]
     }
   ],
-  "lastUpdated": "2025-11-06T06:17:25.812Z"
+  "lastUpdated": "2025-11-07T06:17:10.190Z"
 }
