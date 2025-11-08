@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import Galaxy from '../components/Galaxy';
 import Starfield from '../components/Starfield';
 import CareerTimeline from '../components/CareerTimeline';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -53,6 +54,24 @@ const Home = () => {
                         </h1>
                         <p className="text-lg md:text-xl text-gray-300 mb-6">CS + DS Student at UW-Madison</p>
                         <p className="text-lg md:text-xl text-gray-300 mb-6">Software Engineer at PlayStation</p>
+                        <div className="flex gap-4 pointer-events-auto">
+                            <a 
+                                href="https://github.com/Mahir-2003" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="hover:scale-110 transition-transform"
+                            >
+                                <FaGithub className="text-blue-400 text-3xl hover:text-blue-600 transition"/>
+                            </a>
+                            <a 
+                                href="https://linkedin.com/in/mahir-h-khan" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="hover:scale-110 transition-transform"
+                            >
+                                <FaLinkedin className="text-blue-400 text-3xl hover:text-blue-600 transition"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
