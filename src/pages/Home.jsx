@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import Galaxy from '../components/Galaxy';
 import Starfield from '../components/Starfield';
 import CareerTimeline from '../components/CareerTimeline';
+import SkillsGlobe from '../components/SkillsGlobe';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
@@ -94,6 +95,35 @@ const Home = () => {
                             <p className="text-gray-300 leading-relaxed">
                                 When I'm not engineering, you'll likely find me playing video games, listening to music, watching movies, or contemplating about space.
                             </p>
+                        </div>
+                    </section>
+
+                    {/* Skills Globe Section */}
+                    <section className="mt-16">
+                        <h2 className="text-2xl font-bold text-orange-400 mb-6">
+                            [ SKILLS SYSTEM ]
+                        </h2>
+                        <div className="bg-gray-900/90 backdrop-blur-sm p-6 rounded-lg border border-blue-400/30">
+                            <p className="text-gray-300 mb-8 leading-relaxed">
+                                Navigate through my technological universe. Each planet represents my proficiency 
+                                and experience with different technologies. Hover over nodes to see details, or drag to explore.
+                            </p>
+                            <div className="h-[600px] w-full rounded-lg overflow-hidden">
+                                <Canvas
+                                    camera={{
+                                        position: [0, 0, 30],
+                                        fov: 75,
+                                        near: 0.1,
+                                        far: 1000
+                                    }}
+                                >
+                                    <Suspense fallback={null}>
+                                        <SkillsGlobe />
+                                        <ambientLight intensity={0.5} />
+                                        <pointLight position={[10, 10, 10]} intensity={1} />
+                                    </Suspense>
+                                </Canvas>
+                            </div>
                         </div>
                     </section>
 
