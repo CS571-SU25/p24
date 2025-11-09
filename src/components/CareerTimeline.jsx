@@ -12,7 +12,7 @@ const CareerTimeline = () => {
             company: "Sony Interactive Entertainment",
             position: "Software Developer Intern",
             description: [
-                "Working on streaming and telemetry at PlayStation"
+                "On the Unified Telemetry for Fall 2025"
             ],
             img: playstationLogo
         },

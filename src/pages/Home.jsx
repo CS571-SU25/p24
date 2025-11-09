@@ -1,13 +1,15 @@
 import { Canvas } from '@react-three/fiber';
-import { Suspense } from 'react';
+import { Suspense, useMemo } from 'react';
 import Galaxy from '../components/Galaxy';
 import Starfield from '../components/Starfield';
 import CareerTimeline from '../components/CareerTimeline';
 import SkillsGlobe from '../components/SkillsGlobe';
+import SkillCard from '../components/SkillCard';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 
 const Home = () => {
+
     return (
         <>
             {/* Fixed infinite starfield background - continues behind all content */}
@@ -46,9 +48,6 @@ const Home = () => {
                 {/* Hero text overlay */}
                 <div className="absolute inset-0 flex items-center pointer-events-none">
                     <div className="text-left z-10 mb-50 ml-8 md:ml-16 lg:ml-24 max-w-xl">
-                        {/* <div className="text-sm md:text-base text-orange-400 mb-8">
-                            [ STARFLEET COMMAND ]
-                        </div> */}
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-blue-400 leading-tight"
                             style={{ fontFamily: 'TNG, Orbitron, sans-serif' }}>
                             MAHIR HUSAIN KHAN
@@ -101,36 +100,52 @@ const Home = () => {
                     {/* Skills Globe Section */}
                     <section className="mt-16">
                         <h2 className="text-2xl font-bold text-orange-400 mb-6">
-                            [ SKILLS SYSTEM ]
+                            [ TECHNOLOGY SPHERE ]
                         </h2>
-                        <div className="bg-gray-900/90 backdrop-blur-sm p-6 rounded-lg border border-blue-400/30">
-                            <p className="text-gray-300 mb-8 leading-relaxed">
-                                Navigate through my technological universe. Each planet represents my proficiency 
-                                and experience with different technologies. Hover over nodes to see details, or drag to explore.
-                            </p>
-                            <div className="h-[600px] w-full rounded-lg overflow-hidden">
-                                <Canvas
-                                    camera={{
-                                        position: [0, 0, 30],
-                                        fov: 75,
-                                        near: 0.1,
-                                        far: 1000
-                                    }}
-                                >
-                                    <Suspense fallback={null}>
-                                        <SkillsGlobe />
-                                        <ambientLight intensity={0.5} />
-                                        <pointLight position={[10, 10, 10]} intensity={1} />
-                                    </Suspense>
-                                </Canvas>
-                            </div>
-                        </div>
                     </section>
+                </div>
 
+                {/* globe section - full width container */}
+                <div className="mt-8">
+                    {/* main layout, cards beside globe on desktop, below on mobile */}
+                    <div className="flex flex-col lg:flex-row gap-3 lg:gap-6 items-center lg:items-start justify-center max-w-5xl mx-auto px-4">
+                        <div className="hidden lg:block w-64 space-y-4 flex-shrink-0">
+                            <SkillCard side="left" />
+                        </div>
+                        
+                        <div className="w-full lg:w-auto lg:flex-1 lg:max-w-3xl h-[500px] md:h-[600px] lg:h-[700px] rounded-lg overflow-hidden">
+                            <Canvas
+                                camera={{
+                                    position: [0, 0, 25],
+                                    fov: 60,
+                                    near: 0.1,
+                                    far: 1000
+                                }}
+                            >
+                                <Suspense fallback={null}>
+                                    <SkillsGlobe />
+                                    <ambientLight intensity={0.5} />
+                                    <pointLight position={[10, 10, 10]} intensity={1} />
+                                </Suspense>
+                            </Canvas>
+                        </div>
+                        
+                        <div className="hidden lg:block w-64 space-y-4 flex-shrink-0">
+                            <SkillCard side="right" />
+                        </div>
+                    </div>
+
+                    {/* mobile view - all cards below globe*/}
+                    <div className="lg:hidden mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl mx-auto px-4">
+                        <SkillCard side="left" />
+                        <SkillCard side="right" />
+                    </div>
+                </div>
+
+                <div className="max-w-4xl mx-auto">
                     <section className="mt-16">
                         <CareerTimeline />
                     </section>
-
                 </div>
             </div>
         </>

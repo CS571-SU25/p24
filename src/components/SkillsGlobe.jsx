@@ -1,4 +1,4 @@
-import { useRef, useMemo, useState } from 'react';
+import { useRef, useMemo } from 'react';
 import { useFrame, useThree } from '@react-three/fiber';
 import { Html, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
@@ -26,41 +26,42 @@ import {
     SiGooglecloud
 } from 'react-icons/si';
 
+// Export skills data for use by SkillCard
+export const skills = [
+    // Programming Languages
+    { name: 'JavaScript', category: 'Programming Languages', proficiency: 90, icon: SiJavascript, iconColor: '#F7DF1E', related: ['React', 'Node.js', 'TypeScript'] },
+    { name: 'TypeScript', category: 'Programming Languages', proficiency: 90, icon: SiTypescript, iconColor: '#3178C6', related: ['JavaScript', 'React', 'Node.js'] },
+    { name: 'Python', category: 'Programming Languages', proficiency: 95, icon: FaPython, iconColor: '#3776AB', related: ['FastAPI', 'Firebase'] },
+    { name: 'Java', category: 'Programming Languages', proficiency: 70, icon: FaJava, iconColor: '#ED8B00', related: [] },
+    { name: 'C++', category: 'Programming Languages', proficiency: 50, icon: SiCplusplus, iconColor: '#00599C', related: ['C'] },
+    { name: 'C', category: 'Programming Languages', proficiency: 70, icon: SiC, iconColor: '#A8B9CC', related: ['C++'] },
+    
+    // Frontend
+    { name: 'React', category: 'Frameworks', proficiency: 90, icon: FaReact, iconColor: '#61DAFB', related: ['JavaScript', 'TypeScript', 'TailwindCSS'] },
+    { name: 'TailwindCSS', category: 'Frameworks', proficiency: 80, icon: SiTailwindcss, iconColor: '#06B6D4', related: ['React', 'HTML/CSS'] },
+    { name: 'HTML/CSS', category: 'Frameworks', proficiency: 92, icon: FaHtml5, iconColor: '#E34F26', related: ['TailwindCSS', 'React'] },
+    { name: 'Flutter', category: 'Frameworks', proficiency: 75, icon: SiFlutter, iconColor: '#02569B', related: [] },
+    
+    // Backend & Databases
+    { name: 'Node.js', category: 'Backend / Databases', proficiency: 65, icon: FaNodeJs, iconColor: '#339933', related: ['JavaScript', 'TypeScript'] },
+    { name: 'FastAPI', category: 'Backend / Databases', proficiency: 70, icon: SiFastapi, iconColor: '#009688', related: ['Python'] },
+    { name: 'Firebase', category: 'Backend / Databases', proficiency: 75, icon: SiFirebase, iconColor: '#FFCA28', related: ['Python', 'JavaScript'] },
+    { name: 'MongoDB', category: 'Backend / Databases', proficiency: 50, icon: SiMongodb, iconColor: '#47A248', related: ['Node.js'] },
+    { name: 'PostgreSQL', category: 'Backend / Databases', proficiency: 72, icon: SiPostgresql, iconColor: '#4169E1', related: [] },
+    
+    // Tools & Technologies
+    { name: 'Git', category: 'Tools', proficiency: 90, icon: FaGitAlt, iconColor: '#F05032', related: [] },
+    { name: 'Docker', category: 'Tools', proficiency: 75, icon: FaDocker, iconColor: '#2496ED', related: [] },
+    { name: 'AWS', category: 'Tools', proficiency: 55, icon: FaAws, iconColor: '#FF9900', related: [] },
+    { name: 'Google Cloud', category: 'Tools', proficiency: 50, icon: SiGooglecloud, iconColor: '#4285F4', related: [] },
+];
+
 const SkillsGlobe = () => {
     const groupRef = useRef();
     
     const { viewport } = useThree();
     const isMobile = viewport.width < 768;
-    
-    // Define skills with categories, relationships, and FontAwesome icons
-    const skills = useMemo(() => [
-        // Programming Languages
-        { name: 'JavaScript', category: 'Programming Languages', proficiency: 90, icon: SiJavascript, iconColor: '#F7DF1E', related: ['React', 'Node.js', 'TypeScript'] },
-        { name: 'TypeScript', category: 'Programming Languages', proficiency: 90, icon: SiTypescript, iconColor: '#3178C6', related: ['JavaScript', 'React', 'Node.js'] },
-        { name: 'Python', category: 'Programming Languages', proficiency: 95, icon: FaPython, iconColor: '#3776AB', related: ['FastAPI', 'Firebase'] },
-        { name: 'Java', category: 'Programming Languages', proficiency: 70, icon: FaJava, iconColor: '#007396', related: [] },
-        { name: 'C++', category: 'Programming Languages', proficiency: 50, icon: SiCplusplus, iconColor: '#00599C', related: ['C'] },
-        { name: 'C', category: 'Programming Languages', proficiency: 70, icon: SiC, iconColor: '#A8B9CC', related: ['C++'] },
-        
-        // Frontend
-        { name: 'React', category: 'Frontend Frameworks', proficiency: 90, icon: FaReact, iconColor: '#61DAFB', related: ['JavaScript', 'TypeScript', 'TailwindCSS'] },
-        { name: 'TailwindCSS', category: 'Frontend Frameworks', proficiency: 80, icon: SiTailwindcss, iconColor: '#06B6D4', related: ['React', 'HTML/CSS'] },
-        { name: 'HTML/CSS', category: 'Frontend Frameworks', proficiency: 92, icon: FaHtml5, iconColor: '#E34F26', related: ['TailwindCSS', 'React'] },
-        { name: 'Flutter', category: 'Frontend Frameworks', proficiency: 75, icon: SiFlutter, iconColor: '#02569B', related: [] },
-        
-        // Backend
-        { name: 'Node.js', category: 'Backend & Databases', proficiency: 65, icon: FaNodeJs, iconColor: '#339933', related: ['JavaScript', 'TypeScript'] },
-        { name: 'FastAPI', category: 'Backend & Databases', proficiency: 70, icon: SiFastapi, iconColor: '#009688', related: ['Python'] },
-        { name: 'Firebase', category: 'Backend & Databases', proficiency: 75, icon: SiFirebase, iconColor: '#FFCA28', related: ['Python', 'JavaScript'] },
-        { name: 'MongoDB', category: 'Backend & Databases', proficiency: 50, icon: SiMongodb, iconColor: '#47A248', related: ['Node.js'] },
-        { name: 'PostgreSQL', category: 'Backend & Databases', proficiency: 72, icon: SiPostgresql, iconColor: '#4169E1', related: [] },
-        
-        // Tools
-        { name: 'Git', category: 'Tools & Technologies', proficiency: 90, icon: FaGitAlt, iconColor: '#F05032', related: [] },
-        { name: 'Docker', category: 'Tools & Technologies', proficiency: 75, icon: FaDocker, iconColor: '#2496ED', related: [] },
-        { name: 'AWS', category: 'Tools & Technologies', proficiency: 55, icon: FaAws, iconColor: '#FF9900', related: [] },
-        { name: 'Google Cloud', category: 'Tools & Technologies', proficiency: 50, icon: SiGooglecloud, iconColor: '#4285F4', related: [] },
-    ], []);
+    const isTablet = viewport.width >= 768 && viewport.width < 1024;
 
     // Calculate positions using Fibonacci sphere algorithm
     const skillPositions = useMemo(() => {
@@ -103,7 +104,7 @@ const SkillsGlobe = () => {
         });
         
         return positions;
-    }, [skills, isMobile]);
+    }, [isMobile]);
 
     // Generate connection lines with orange/golden color
     const connections = useMemo(() => {
@@ -123,7 +124,7 @@ const SkillsGlobe = () => {
                         lines.push({
                             start: skill.position,
                             end: relatedSkill.position,
-                            color: '#3b82f6' // Orange LCARS color
+                            color: '#3b82f6' // Blue connection lines
                         });
                     }
                 }
@@ -140,13 +141,16 @@ const SkillsGlobe = () => {
         }
     });
 
+    // Responsive camera distance based on viewport
+    const cameraDistance = isMobile ? 20 : isTablet ? 22 : 20;
+
     return (
         <>
             <OrbitControls 
                 enableZoom={true}
                 enablePan={false}
-                minDistance={12.5}
-                maxDistance={12.5}
+                minDistance={cameraDistance}
+                maxDistance={cameraDistance}
                 rotateSpeed={0.6}
                 dampingFactor={0.05}
                 zoomSpeed={0.8}
@@ -165,7 +169,6 @@ const SkillsGlobe = () => {
                     />
                 </mesh>
 
-                {/* Connection lines with orange/golden color */}
                 {connections.map((connection, i) => (
                     <ConnectionLine
                         key={`connection-${i}`}
@@ -276,7 +279,7 @@ const SkillNode = ({ skill, isMobile }) => {
     );
 };
 
-// Connection line with proper orange color
+// Connection line with proper blue color
 const ConnectionLine = ({ start, end, color }) => {
     const ref = useRef();
     

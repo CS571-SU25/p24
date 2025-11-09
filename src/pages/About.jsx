@@ -49,41 +49,6 @@ const About = () => {
                     <section className="mb-12">
                         <SpotifyStats/>
                     </section>
-
-                    {/* skills overview */}
-                    <section>
-                        <h2 className="text-2xl font-bold text-blue-400 mb-6">SKILL MATRIX</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="bg-gray-900/90 backdrop-blur-sm p-6 rounded-lg">
-                                <h3 className="text-orange-400 font-semibold mb-3">Programming Languages</h3>
-                                <div className="flex flex-wrap gap-2">
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">JavaScript</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">TypeScript</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">HTML/CSS</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">Flutter</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">Python</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">Java</span>
-                                    <span className="bg-blue-600 px-3 py-1 rounded text-sm">C/C++</span>
-                                </div>
-                            </div>
-
-                            <div className="bg-gray-900/90 backdrop-blur-sm p-6 rounded-lg">
-                                <h3 className="text-orange-400 font-semibold mb-3">Technologies</h3>
-                                <div className="flex flex-wrap gap-2">
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">React</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">Node.js</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">TailwindCSS</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">Pandas</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">NumPy</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">Firebase</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">PostgreSQL</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">WebSockets</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">Figma</span>
-                                    <span className="bg-purple-600 px-3 py-1 rounded text-sm">Git/GitHub</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </div>
         </>
