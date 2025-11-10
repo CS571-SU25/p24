@@ -142,7 +142,7 @@ const SkillsGlobe = () => {
     });
 
     // Responsive camera distance based on viewport
-    const cameraDistance = isMobile ? 20 : isTablet ? 22 : 20;
+    const cameraDistance = isMobile ? 25 : isTablet ? 22 : 20;
 
     return (
         <>
