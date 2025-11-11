@@ -36,11 +36,11 @@
       "external_url": "https://open.spotify.com/track/419vPj2tN0KADfmLkBfBZe"
     },
     {
-      "name": "Habits",
-      "artist": "OsamaSon",
-      "album": "psykotic",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
-      "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
+      "name": "TELEPATHY LOVE (feat. Clara La San)",
+      "artist": "BNYX®",
+      "album": "LOADING...",
+      "image": "https://i.scdn.co/image/ab67616d0000b27338373bdf54004a7d2e1a69ce",
+      "external_url": "https://open.spotify.com/track/37de7PiZODyk476tuvStLq"
     },
     {
       "name": "BUFF BBY",
@@ -50,6 +50,13 @@
       "external_url": "https://open.spotify.com/track/3hgKImbnnlEo91XTerv2NV"
     },
     {
+      "name": "show u how",
+      "artist": "Destroy Lonely",
+      "album": "</3³",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
+      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+    },
+    {
       "name": "Addicted",
       "artist": "OsamaSon",
       "album": "psykotic",
@@ -57,18 +64,11 @@
       "external_url": "https://open.spotify.com/track/7iZqma5DV0h12Orxlb20VU"
     },
     {
-      "name": "TELEPATHY LOVE (feat. Clara La San)",
-      "artist": "BNYX®",
-      "album": "LOADING...",
-      "image": "https://i.scdn.co/image/ab67616d0000b27338373bdf54004a7d2e1a69ce",
-      "external_url": "https://open.spotify.com/track/37de7PiZODyk476tuvStLq"
-    },
-    {
-      "name": "show u how",
-      "artist": "Destroy Lonely",
-      "album": "</3³",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d7b2fb87f7316720422d2525",
-      "external_url": "https://open.spotify.com/track/1tVyspjjYQ0NFDK6uOOoDx"
+      "name": "Habits",
+      "artist": "OsamaSon",
+      "album": "psykotic",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f08f912956daaea9fa34cb76",
+      "external_url": "https://open.spotify.com/track/2XMwyntBTC3OgWE2N2wXoX"
     }
   ],
   "topArtists": [
@@ -106,15 +106,6 @@
       ]
     },
     {
-      "name": "Lucy Bedroque",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
-      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
-      "genres": [
-        "hyperpop",
-        "cloud rap"
-      ]
-    },
-    {
       "name": "Cocteau Twins",
       "image": "https://i.scdn.co/image/ab6761610000e5eb00f01cecce8a4475c3de0998",
       "external_url": "https://open.spotify.com/artist/5Wabl1lPdNOeIn0SQ5A1mp",
@@ -122,6 +113,15 @@
         "dream pop",
         "shoegaze",
         "gothic rock"
+      ]
+    },
+    {
+      "name": "Lucy Bedroque",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb46d54cd46ec87c6838c9f0d5",
+      "external_url": "https://open.spotify.com/artist/2I8H267eH5va9da4vGt38O",
+      "genres": [
+        "hyperpop",
+        "cloud rap"
       ]
     },
     {
@@ -140,14 +140,6 @@
       "genres": []
     },
     {
-      "name": "Nine Vicious",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
-      "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
-      "genres": [
-        "underground hip hop"
-      ]
-    },
-    {
       "name": "kuru",
       "image": "https://i.scdn.co/image/ab6761610000e5ebcaa57ca5c67210b0daede1ab",
       "external_url": "https://open.spotify.com/artist/1KJ5ZZBncdHtz60i3fiQYu",
@@ -156,7 +148,15 @@
         "glitch",
         "cloud rap"
       ]
+    },
+    {
+      "name": "Nine Vicious",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb4cbd0f9f8221fa92c6c8031",
+      "external_url": "https://open.spotify.com/artist/6Rs7Ufqb4h0FTuVg6wlqOy",
+      "genres": [
+        "underground hip hop"
+      ]
     }
   ],
-  "lastUpdated": "2025-11-10T06:18:34.747Z"
+  "lastUpdated": "2025-11-11T06:17:39.506Z"
 }
