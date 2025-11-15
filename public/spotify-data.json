@@ -123,6 +123,12 @@
       ]
     },
     {
+      "name": "deathtoricky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
+      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
+      "genres": []
+    },
+    {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "external_url": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb",
@@ -130,12 +136,6 @@
         "neo-psychedelic",
         "indie"
       ]
-    },
-    {
-      "name": "deathtoricky",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb90a348fb5e6b08f689585752",
-      "external_url": "https://open.spotify.com/artist/2dj6hqelYanB2vqOgf1O4T",
-      "genres": []
     },
     {
       "name": "kuru",
@@ -156,5 +156,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-11-14T06:17:32.715Z"
+  "lastUpdated": "2025-11-15T06:15:28.292Z"
 }
